@@ -12,9 +12,20 @@ namespace MemoryGame
 {
     public partial class StartForm : Form
     {
+      
         public StartForm()
         {
             InitializeComponent();
         }
+
+        private void btn_starta_Click(object sender, EventArgs e)
+        {
+            GameBoardForm frm = new GameBoardForm();
+            frm.Show();
+            this.Hide();
+        }
+// Öppna spelplanen(GameBoardForm)
+        
+       
     }
 }
