@@ -16,15 +16,6 @@ namespace MemoryGame
         {
             InitializeComponent();
         }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            this.pictureBox1.Image = global::MemoryGame.Properties.Resources.arrow;
-
-        }
-
-   
-
       
     }
 }
