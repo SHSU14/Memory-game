@@ -16,5 +16,23 @@ namespace MemoryGame
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.pictureBox1.Image = global::MemoryGame.Properties.Resources.arrow;
+
+        }
+
+        private void Form1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("HEJ!");
+        }
+
+        private void memoryCardControl1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("HEJ!");
+        }
+
+      
     }
 }
