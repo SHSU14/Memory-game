@@ -23,15 +23,7 @@ namespace MemoryGame
 
         }
 
-        private void Form1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("HEJ!");
-        }
-
-        private void memoryCardControl1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("HEJ!");
-        }
+   
 
       
     }

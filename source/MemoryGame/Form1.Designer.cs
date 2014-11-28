@@ -56,7 +56,6 @@
             this.memoryCardControl1.Size = new System.Drawing.Size(92, 122);
             this.memoryCardControl1.TabIndex = 1;
             this.memoryCardControl1.TabStop = false;
-            this.memoryCardControl1.Click += new System.EventHandler(this.memoryCardControl1_Click);
             // 
             // Form1
             // 
@@ -67,7 +66,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Click += new System.EventHandler(this.Form1_Click);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl1)).EndInit();
             this.ResumeLayout(false);
