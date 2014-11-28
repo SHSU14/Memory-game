@@ -44,7 +44,6 @@
             this.Player7Pointslabel = new System.Windows.Forms.Label();
             this.Player8Pointslabel = new System.Windows.Forms.Label();
             this.Player9Pointslabel = new System.Windows.Forms.Label();
-            this.Pickedcardtimelabel = new System.Windows.Forms.Label();
             this.CurrentGametimelabel = new System.Windows.Forms.Label();
             this.memoryCardControl1 = new MemoryGame.MemoryCardControl();
             this.memoryCardControl2 = new MemoryGame.MemoryCardControl();
@@ -58,6 +57,7 @@
             this.memoryCardControl10 = new MemoryGame.MemoryCardControl();
             this.memoryCardControl11 = new MemoryGame.MemoryCardControl();
             this.memoryCardControl12 = new MemoryGame.MemoryCardControl();
+            this.btnDone = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl2)).BeginInit();
@@ -215,25 +215,15 @@
             this.Player9Pointslabel.TabIndex = 10;
             this.Player9Pointslabel.Text = "Spelare 9";
             // 
-            // Pickedcardtimelabel
-            // 
-            this.Pickedcardtimelabel.AutoSize = true;
-            this.Pickedcardtimelabel.Location = new System.Drawing.Point(773, 69);
-            this.Pickedcardtimelabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Pickedcardtimelabel.Name = "Pickedcardtimelabel";
-            this.Pickedcardtimelabel.Size = new System.Drawing.Size(67, 17);
-            this.Pickedcardtimelabel.TabIndex = 11;
-            this.Pickedcardtimelabel.Text = "Tänke tid";
-            // 
             // CurrentGametimelabel
             // 
             this.CurrentGametimelabel.AutoSize = true;
             this.CurrentGametimelabel.Location = new System.Drawing.Point(773, 44);
             this.CurrentGametimelabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CurrentGametimelabel.Name = "CurrentGametimelabel";
-            this.CurrentGametimelabel.Size = new System.Drawing.Size(72, 17);
+            this.CurrentGametimelabel.Size = new System.Drawing.Size(75, 17);
             this.CurrentGametimelabel.TabIndex = 12;
-            this.CurrentGametimelabel.Text = "Minnes tid";
+            this.CurrentGametimelabel.Text = "Betänketid";
             // 
             // memoryCardControl1
             // 
@@ -355,11 +345,22 @@
             this.memoryCardControl12.TabIndex = 24;
             this.memoryCardControl12.TabStop = false;
             // 
+            // btnDone
+            // 
+            this.btnDone.Location = new System.Drawing.Point(759, 520);
+            this.btnDone.Name = "btnDone";
+            this.btnDone.Size = new System.Drawing.Size(91, 26);
+            this.btnDone.TabIndex = 25;
+            this.btnDone.Text = "Klar";
+            this.btnDone.UseVisualStyleBackColor = true;
+            this.btnDone.Click += new System.EventHandler(this.btnDone_Click);
+            // 
             // GameBoardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(880, 570);
+            this.ClientSize = new System.Drawing.Size(880, 566);
+            this.Controls.Add(this.btnDone);
             this.Controls.Add(this.memoryCardControl12);
             this.Controls.Add(this.memoryCardControl11);
             this.Controls.Add(this.memoryCardControl10);
@@ -373,7 +374,6 @@
             this.Controls.Add(this.memoryCardControl2);
             this.Controls.Add(this.memoryCardControl1);
             this.Controls.Add(this.CurrentGametimelabel);
-            this.Controls.Add(this.Pickedcardtimelabel);
             this.Controls.Add(this.Player9Pointslabel);
             this.Controls.Add(this.Player8Pointslabel);
             this.Controls.Add(this.Player7Pointslabel);
@@ -386,7 +386,7 @@
             this.Controls.Add(this.Player1Pointslabel);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GameBoardForm";
             this.Text = "GameBoardForm";
             this.menuStrip1.ResumeLayout(false);
@@ -425,7 +425,6 @@
         private System.Windows.Forms.Label Player7Pointslabel;
         private System.Windows.Forms.Label Player8Pointslabel;
         private System.Windows.Forms.Label Player9Pointslabel;
-        private System.Windows.Forms.Label Pickedcardtimelabel;
         private System.Windows.Forms.Label CurrentGametimelabel;
         private MemoryCardControl memoryCardControl1;
         private MemoryCardControl memoryCardControl2;
@@ -439,5 +438,6 @@
         private MemoryCardControl memoryCardControl10;
         private MemoryCardControl memoryCardControl11;
         private MemoryCardControl memoryCardControl12;
+        private System.Windows.Forms.Button btnDone;
     }
 }
