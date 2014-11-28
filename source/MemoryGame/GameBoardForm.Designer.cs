@@ -75,6 +75,7 @@
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
             this.pictureBox29 = new System.Windows.Forms.PictureBox();
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
+            this.btnDone = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -133,18 +134,21 @@
             this.nyttToolStripMenuItem.Name = "nyttToolStripMenuItem";
             this.nyttToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.nyttToolStripMenuItem.Text = "&Nytt Spel";
+            this.nyttToolStripMenuItem.Click += new System.EventHandler(this.nyttToolStripMenuItem_Click);
             // 
             // startaOmSpeletToolStripMenuItem
             // 
             this.startaOmSpeletToolStripMenuItem.Name = "startaOmSpeletToolStripMenuItem";
             this.startaOmSpeletToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.startaOmSpeletToolStripMenuItem.Text = "&Starta om Spelet";
+            this.startaOmSpeletToolStripMenuItem.Click += new System.EventHandler(this.startaOmSpeletToolStripMenuItem_Click);
             // 
             // avslutaToolStripMenuItem
             // 
             this.avslutaToolStripMenuItem.Name = "avslutaToolStripMenuItem";
             this.avslutaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.avslutaToolStripMenuItem.Text = "&Avsluta";
+            this.avslutaToolStripMenuItem.Click += new System.EventHandler(this.avslutaToolStripMenuItem_Click);
             // 
             // Player1Pointslabel
             // 
@@ -494,11 +498,22 @@
             this.pictureBox30.TabIndex = 43;
             this.pictureBox30.TabStop = false;
             // 
+            // btnDone
+            // 
+            this.btnDone.Location = new System.Drawing.Point(240, 296);
+            this.btnDone.Name = "btnDone";
+            this.btnDone.Size = new System.Drawing.Size(75, 23);
+            this.btnDone.TabIndex = 44;
+            this.btnDone.Text = "Klar!";
+            this.btnDone.UseVisualStyleBackColor = true;
+            this.btnDone.Click += new System.EventHandler(this.btnDone_Click);
+            // 
             // GameBoardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(660, 296);
+            this.ClientSize = new System.Drawing.Size(660, 345);
+            this.Controls.Add(this.btnDone);
             this.Controls.Add(this.pictureBox30);
             this.Controls.Add(this.pictureBox29);
             this.Controls.Add(this.pictureBox28);
@@ -631,5 +646,6 @@
         private System.Windows.Forms.PictureBox pictureBox28;
         private System.Windows.Forms.PictureBox pictureBox29;
         private System.Windows.Forms.PictureBox pictureBox30;
+        private System.Windows.Forms.Button btnDone;
     }
 }
