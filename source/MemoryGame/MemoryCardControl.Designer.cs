@@ -29,11 +29,13 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            //this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 
-            this.Image = global::MemoryGame.Properties.Resources.star;
+            this.Init();
+
+            
         }
 
+       
         #endregion
     }
 }

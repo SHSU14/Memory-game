@@ -12,6 +12,7 @@ namespace MemoryGame
 {
     public partial class MemoryCardControl : PictureBox
     {
+        //Här lagras informationen om vilken bild kortet har
         private MemoryCard data;
 
         public MemoryCardControl()
@@ -21,7 +22,7 @@ namespace MemoryGame
 
         private void Flip()
         {
-            this.Image = global::MemoryGame.Properties.Resources.arrow ;
+            this.Image = global::MemoryGame.Properties.Resources.star1;
           
         }
         protected override void OnClick(EventArgs e)
@@ -29,6 +30,15 @@ namespace MemoryGame
             base.OnClick(e);
             Flip();
         }
+
+        private void Init()
+        {
+            this.Image = global::MemoryGame.Properties.Resources.CardBack;
+            this.Size = new System.Drawing.Size(160, 160);
+            //this.SizeMode = PictureBoxSizeMode.CenterImage;
+            this.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
+
 
     }
 }
