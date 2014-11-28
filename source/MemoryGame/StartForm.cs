@@ -18,13 +18,19 @@ namespace MemoryGame
             InitializeComponent();
         }
 
+        // Öppna spelplanen(GameBoardForm)
         private void btn_starta_Click(object sender, EventArgs e)
         {
-            GameBoardForm frm = new GameBoardForm();
+            GameBoardForm frm = new GameBoardForm(this);
             frm.Show();
             this.Hide();
         }
-// Öppna spelplanen(GameBoardForm)
+
+        public DialogResult ExitGame()
+        {
+           return MessageBox.Show("Vill du verkligen avsluta?", string.Empty, MessageBoxButtons.YesNo, MessageBoxIcon.Question);   
+        }
+
         
        
     }

@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 namespace MemoryGame
 {
+
+    //Custom Control som ska representera ett Memorykort. 
     public partial class MemoryCardControl : PictureBox
     {
         //Här lagras informationen om vilken bild kortet har
@@ -18,26 +20,25 @@ namespace MemoryGame
         public MemoryCardControl()
         {
             InitializeComponent();
+            this.Image = global::MemoryGame.Properties.Resources.CardBack;
+            this.Size = new System.Drawing.Size(160, 160);
+            this.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
+        //"vänder" memorykortet, d v s byter bild.
         private void Flip()
         {
-            this.Image = global::MemoryGame.Properties.Resources.star1;
+            this.Image = global::MemoryGame.Properties.Resources.star;
           
         }
+
+        //overridar OnClick så att den alltid anropar Flip()
         protected override void OnClick(EventArgs e)
         {
             base.OnClick(e);
             Flip();
         }
 
-        private void Init()
-        {
-            this.Image = global::MemoryGame.Properties.Resources.CardBack;
-            this.Size = new System.Drawing.Size(160, 160);
-            //this.SizeMode = PictureBoxSizeMode.CenterImage;
-            this.SizeMode = PictureBoxSizeMode.StretchImage;
-        }
 
 
     }

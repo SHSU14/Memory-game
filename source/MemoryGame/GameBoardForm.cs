@@ -12,45 +12,41 @@ namespace MemoryGame
 {
     public partial class GameBoardForm : Form
     {
-        public GameBoardForm()
+        StartForm startForm;
+
+        public GameBoardForm(StartForm startForm)
         {
+            this.startForm = startForm;
             InitializeComponent();
-            this.FormClosing += GameBoardForm_FormClosing;
         }
-        private void GameBoardForm_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            DialogResult result = MessageBox.Show("Vill du verkligen avsluta?", string.Empty, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if(result == DialogResult.No)
-            {
-                e.Cancel = true;
-            }
-        }
+
 
         private void btnDone_Click(object sender, EventArgs e)
         {
-            ResultForm frm = new ResultForm();
+            ResultForm frm = new ResultForm(this.startForm);
             frm.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void startaOmSpeletToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            GameBoardForm frm = new GameBoardForm(this.startForm);
+            frm.Show();
+            this.Close();
         }
 
         private void nyttToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            StartForm frm = new StartForm();
-            if(MessageBox.Show("Vill du starta nytt spel?", "Nytt spel", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Vill du starta nytt spel?", "Nytt spel", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-            frm.Show();
-            this.Hide();
+                this.startForm.Show();
+                this.Close();
             }
         }
 
         private void avslutaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-             //if (MessageBox.Show("Vill du verkligen avsluta?", "Avslutar", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (startForm.ExitGame() == DialogResult.Yes)
                 Application.Exit();
         }
     }

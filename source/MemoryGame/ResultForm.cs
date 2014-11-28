@@ -12,29 +12,35 @@ namespace MemoryGame
 {
     public partial class ResultForm : Form
     {
-        public ResultForm()
+        private StartForm startForm;
+
+        public ResultForm(StartForm startForm)
         {
+            this.startForm = startForm;
             InitializeComponent();
         }
 
+        // Spela igen knappen
         private void button1_Click(object sender, EventArgs e)
         {
-            GameBoardForm SpelaIgen = new GameBoardForm();
+            GameBoardForm SpelaIgen = new GameBoardForm(this.startForm);
             SpelaIgen.Show();
-            this.Hide();
+            this.Close();
         }
 
+        //Nytt spel knappen
         private void button2_Click(object sender, EventArgs e)
         {
-            StartForm SpelaIgen = new StartForm();
-            SpelaIgen.Show();
-            this.Hide();
+            this.startForm.Show();
+            this.Close();
         }
 
+        //Avsluta knappen
         private void button3_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-            
+            if (startForm.ExitGame() == DialogResult.Yes)
+                Application.Exit();
+
         }
     }
 }

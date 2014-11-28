@@ -54,9 +54,10 @@
             // rBtn_level2
             // 
             this.rBtn_level2.AutoSize = true;
-            this.rBtn_level2.Location = new System.Drawing.Point(592, 248);
+            this.rBtn_level2.Location = new System.Drawing.Point(296, 129);
+            this.rBtn_level2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rBtn_level2.Name = "rBtn_level2";
-            this.rBtn_level2.Size = new System.Drawing.Size(104, 29);
+            this.rBtn_level2.Size = new System.Drawing.Size(56, 17);
             this.rBtn_level2.TabIndex = 25;
             this.rBtn_level2.TabStop = true;
             this.rBtn_level2.Text = "Nivå 2";
@@ -65,9 +66,10 @@
             // rBtn_level3
             // 
             this.rBtn_level3.AutoSize = true;
-            this.rBtn_level3.Location = new System.Drawing.Point(704, 248);
+            this.rBtn_level3.Location = new System.Drawing.Point(352, 129);
+            this.rBtn_level3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rBtn_level3.Name = "rBtn_level3";
-            this.rBtn_level3.Size = new System.Drawing.Size(104, 29);
+            this.rBtn_level3.Size = new System.Drawing.Size(56, 17);
             this.rBtn_level3.TabIndex = 24;
             this.rBtn_level3.TabStop = true;
             this.rBtn_level3.Text = "Nivå 3";
@@ -76,9 +78,10 @@
             // rBtn_level1
             // 
             this.rBtn_level1.AutoSize = true;
-            this.rBtn_level1.Location = new System.Drawing.Point(472, 248);
+            this.rBtn_level1.Location = new System.Drawing.Point(236, 129);
+            this.rBtn_level1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rBtn_level1.Name = "rBtn_level1";
-            this.rBtn_level1.Size = new System.Drawing.Size(104, 29);
+            this.rBtn_level1.Size = new System.Drawing.Size(56, 17);
             this.rBtn_level1.TabIndex = 23;
             this.rBtn_level1.TabStop = true;
             this.rBtn_level1.Text = "Nivå 1";
@@ -87,33 +90,37 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(312, 488);
+            this.label5.Location = new System.Drawing.Point(156, 254);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(128, 25);
+            this.label5.Size = new System.Drawing.Size(86, 13);
             this.label5.TabIndex = 22;
-            this.label5.Text = "Sekunder 1:";
+            this.label5.Text = "Visningstid (sec):";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(312, 440);
+            this.label4.Location = new System.Drawing.Point(156, 229);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 25);
+            this.label4.Size = new System.Drawing.Size(87, 13);
             this.label4.TabIndex = 21;
-            this.label4.Text = "Sekunder:";
+            this.label4.Text = "Betänketid (sec):";
             // 
             // nud_sec2
             // 
-            this.nud_sec2.Location = new System.Drawing.Point(472, 480);
+            this.nud_sec2.Location = new System.Drawing.Point(265, 250);
+            this.nud_sec2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nud_sec2.Name = "nud_sec2";
-            this.nud_sec2.Size = new System.Drawing.Size(200, 31);
+            this.nud_sec2.Size = new System.Drawing.Size(71, 20);
             this.nud_sec2.TabIndex = 20;
             // 
             // nud_sec1
             // 
-            this.nud_sec1.Location = new System.Drawing.Point(472, 432);
+            this.nud_sec1.Location = new System.Drawing.Point(265, 225);
+            this.nud_sec1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nud_sec1.Name = "nud_sec1";
-            this.nud_sec1.Size = new System.Drawing.Size(200, 31);
+            this.nud_sec1.Size = new System.Drawing.Size(71, 20);
             this.nud_sec1.TabIndex = 19;
             // 
             // nud_Spelplan
@@ -123,7 +130,8 @@
             0,
             0,
             0});
-            this.nud_Spelplan.Location = new System.Drawing.Point(472, 304);
+            this.nud_Spelplan.Location = new System.Drawing.Point(236, 158);
+            this.nud_Spelplan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nud_Spelplan.Maximum = new decimal(new int[] {
             120,
             0,
@@ -135,7 +143,7 @@
             0,
             0});
             this.nud_Spelplan.Name = "nud_Spelplan";
-            this.nud_Spelplan.Size = new System.Drawing.Size(200, 31);
+            this.nud_Spelplan.Size = new System.Drawing.Size(100, 20);
             this.nud_Spelplan.TabIndex = 18;
             this.nud_Spelplan.Value = new decimal(new int[] {
             12,
@@ -158,9 +166,10 @@
             "8",
             "9",
             "10"});
-            this.cmb_spelare.Location = new System.Drawing.Point(472, 96);
+            this.cmb_spelare.Location = new System.Drawing.Point(236, 50);
+            this.cmb_spelare.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmb_spelare.Name = "cmb_spelare";
-            this.cmb_spelare.Size = new System.Drawing.Size(200, 33);
+            this.cmb_spelare.Size = new System.Drawing.Size(102, 21);
             this.cmb_spelare.TabIndex = 17;
             this.cmb_spelare.Text = "0 - 10";
             // 
@@ -179,44 +188,49 @@
             "8",
             "9",
             "10"});
-            this.cmb_AI.Location = new System.Drawing.Point(472, 176);
+            this.cmb_AI.Location = new System.Drawing.Point(236, 92);
+            this.cmb_AI.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmb_AI.Name = "cmb_AI";
-            this.cmb_AI.Size = new System.Drawing.Size(200, 33);
+            this.cmb_AI.Size = new System.Drawing.Size(102, 21);
             this.cmb_AI.TabIndex = 16;
             this.cmb_AI.Text = "0 - 10";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(312, 304);
+            this.label3.Location = new System.Drawing.Point(156, 158);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 25);
+            this.label3.Size = new System.Drawing.Size(48, 13);
             this.label3.TabIndex = 15;
-            this.label3.Text = "Spelplan:";
+            this.label3.Text = "Spelplan";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(312, 176);
+            this.label2.Location = new System.Drawing.Point(156, 92);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 25);
+            this.label2.Size = new System.Drawing.Size(59, 13);
             this.label2.TabIndex = 14;
             this.label2.Text = "AI Spelare:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(312, 104);
+            this.label1.Location = new System.Drawing.Point(156, 54);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 25);
+            this.label1.Size = new System.Drawing.Size(46, 13);
             this.label1.TabIndex = 13;
             this.label1.Text = "Spelare:";
             // 
             // btn_starta
             // 
-            this.btn_starta.Location = new System.Drawing.Point(472, 560);
+            this.btn_starta.Location = new System.Drawing.Point(236, 291);
+            this.btn_starta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_starta.Name = "btn_starta";
-            this.btn_starta.Size = new System.Drawing.Size(200, 64);
+            this.btn_starta.Size = new System.Drawing.Size(100, 33);
             this.btn_starta.TabIndex = 26;
             this.btn_starta.Text = "Starta";
             this.btn_starta.UseVisualStyleBackColor = true;
@@ -225,9 +239,10 @@
             // rBtn_tema1
             // 
             this.rBtn_tema1.AutoSize = true;
-            this.rBtn_tema1.Location = new System.Drawing.Point(464, 376);
+            this.rBtn_tema1.Location = new System.Drawing.Point(232, 196);
+            this.rBtn_tema1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rBtn_tema1.Name = "rBtn_tema1";
-            this.rBtn_tema1.Size = new System.Drawing.Size(109, 29);
+            this.rBtn_tema1.Size = new System.Drawing.Size(58, 17);
             this.rBtn_tema1.TabIndex = 27;
             this.rBtn_tema1.TabStop = true;
             this.rBtn_tema1.Text = "Tema1";
@@ -236,9 +251,10 @@
             // rBtn_tema3
             // 
             this.rBtn_tema3.AutoSize = true;
-            this.rBtn_tema3.Location = new System.Drawing.Point(688, 376);
+            this.rBtn_tema3.Location = new System.Drawing.Point(350, 196);
+            this.rBtn_tema3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rBtn_tema3.Name = "rBtn_tema3";
-            this.rBtn_tema3.Size = new System.Drawing.Size(109, 29);
+            this.rBtn_tema3.Size = new System.Drawing.Size(58, 17);
             this.rBtn_tema3.TabIndex = 28;
             this.rBtn_tema3.TabStop = true;
             this.rBtn_tema3.Text = "Tema3";
@@ -247,9 +263,10 @@
             // rBtn_tema2
             // 
             this.rBtn_tema2.AutoSize = true;
-            this.rBtn_tema2.Location = new System.Drawing.Point(576, 376);
+            this.rBtn_tema2.Location = new System.Drawing.Point(288, 196);
+            this.rBtn_tema2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rBtn_tema2.Name = "rBtn_tema2";
-            this.rBtn_tema2.Size = new System.Drawing.Size(109, 29);
+            this.rBtn_tema2.Size = new System.Drawing.Size(58, 17);
             this.rBtn_tema2.TabIndex = 29;
             this.rBtn_tema2.TabStop = true;
             this.rBtn_tema2.Text = "Tema2";
@@ -258,17 +275,18 @@
             // Tema
             // 
             this.Tema.AutoSize = true;
-            this.Tema.Location = new System.Drawing.Point(312, 376);
+            this.Tema.Location = new System.Drawing.Point(156, 196);
+            this.Tema.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Tema.Name = "Tema";
-            this.Tema.Size = new System.Drawing.Size(72, 25);
+            this.Tema.Size = new System.Drawing.Size(37, 13);
             this.Tema.TabIndex = 30;
             this.Tema.Text = "Tema:";
             // 
             // StartForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1048, 717);
+            this.ClientSize = new System.Drawing.Size(524, 373);
             this.Controls.Add(this.Tema);
             this.Controls.Add(this.rBtn_tema2);
             this.Controls.Add(this.rBtn_tema3);
@@ -287,8 +305,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "StartForm";
-            this.Text = "Memory Spel";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Memory ";
             ((System.ComponentModel.ISupportInitialize)(this.nud_sec2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_sec1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_Spelplan)).EndInit();
