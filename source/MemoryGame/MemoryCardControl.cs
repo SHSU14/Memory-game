@@ -17,10 +17,13 @@ namespace MemoryGame
         //Här lagras informationen om vilken bild kortet har
         private MemoryCard data;
 
+        private bool flipped = false;
+
         public MemoryCardControl()
         {
             InitializeComponent();
-            this.Image = global::MemoryGame.Properties.Resources.CardBack;
+            this.data = new MemoryCard();
+            this.Image = data.BackSide;
             this.Size = new System.Drawing.Size(160, 160);
             this.SizeMode = PictureBoxSizeMode.StretchImage;
         }
@@ -28,8 +31,11 @@ namespace MemoryGame
         //"vänder" memorykortet, d v s byter bild.
         private void Flip()
         {
-            this.Image = global::MemoryGame.Properties.Resources.star;
-          
+            if (flipped)
+                Image = data.BackSide;
+            else
+                Image = data.Symbol;
+            flipped = !flipped;
         }
 
         //overridar OnClick så att den alltid anropar Flip()
