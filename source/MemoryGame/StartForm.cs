@@ -17,15 +17,15 @@ namespace MemoryGame
         {
             InitializeComponent();
         }
-// Öppna spelplanen(GameBoardForm)
+
         private void btn_starta_Click(object sender, EventArgs e)
         {
             GameBoardForm frm = new GameBoardForm();
             frm.Show();
-            this.Hide();           
-    
+            this.Hide();
         }
-  
+// Öppna spelplanen(GameBoardForm)
         
+       
     }
 }

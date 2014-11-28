@@ -220,6 +220,7 @@
             this.btn_starta.TabIndex = 26;
             this.btn_starta.Text = "Starta";
             this.btn_starta.UseVisualStyleBackColor = true;
+            this.btn_starta.Click += new System.EventHandler(this.btn_starta_Click);
             // 
             // rBtn_tema1
             // 
