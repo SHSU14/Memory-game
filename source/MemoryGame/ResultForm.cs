@@ -17,19 +17,24 @@ namespace MemoryGame
             InitializeComponent();
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            GameBoardForm SpelaIgen = new GameBoardForm();
+            SpelaIgen.Show();
+            this.Hide();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            StartForm SpelaIgen = new StartForm();
+            SpelaIgen.Show();
+            this.Hide();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
+            
         }
     }
 }
