@@ -57,6 +57,7 @@
       <DependentUpon>GameBoardForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MemoryCard.cs" />
+    <Compile Include="MemoryCardContainer.cs" />
     <Compile Include="MemoryCardControl.cs">
       <SubType>Component</SubType>
     </Compile>
