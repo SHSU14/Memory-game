@@ -15,15 +15,15 @@ namespace MemoryGame
     public partial class MemoryCardControl : PictureBox
     {
         //Här lagras informationen om vilken bild kortet har
-        private MemoryCard data;
+        public MemoryCard Data;
 
         private bool flipped = false; //sant om kortet är öppet, alltså visar sin symbol och inte baksidebilden
 
         public MemoryCardControl()
         {
             InitializeComponent();
-            this.data = new MemoryCard();
-            this.Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(data.BackSide);
+            this.Data = new MemoryCard();
+            this.Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(Data.BackSide);
             this.Size = new System.Drawing.Size(160, 160);
             this.SizeMode = PictureBoxSizeMode.StretchImage;
         }
@@ -32,9 +32,9 @@ namespace MemoryGame
         private void Flip()
         {
             if (flipped)
-                Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(data.BackSide);
+                Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(Data.BackSide);
             else
-                Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(data.Symbol);
+                Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(Data.Symbol);
             flipped = !flipped;
         }
 

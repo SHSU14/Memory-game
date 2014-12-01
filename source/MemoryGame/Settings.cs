@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MemoryGame
 {
-    class Settings
+    public class Settings
     {
         public int Players { get; set; }
         public int AIPlayers { get; set; }
@@ -15,5 +15,13 @@ namespace MemoryGame
         public string Themes { get; set; }
         public int PlayersTurnTimer { get; set; }
         public int ShowCardTimer { get; set; }
+
+        public Settings()
+        {
+            Players = 2;
+            AIPlayers = 0;
+            CardNumber = 12;
+            Themes = "bild";
+        }
     }
 }
