@@ -133,9 +133,9 @@ namespace MemoryGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bildCardBack {
+        internal static System.Drawing.Bitmap bildBackSide {
             get {
-                object obj = ResourceManager.GetObject("bildCardBack", resourceCulture);
+                object obj = ResourceManager.GetObject("bildBackSide", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

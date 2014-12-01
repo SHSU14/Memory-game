@@ -17,7 +17,7 @@ namespace MemoryGame
         public MemoryCard()
         { 
             this.Symbol = "bild1";
-            this.BackSide = "bildCardBack";
+            this.BackSide = "bildBackSide";
             this.Counter = 2;
         }
 
@@ -27,6 +27,8 @@ namespace MemoryGame
             this.BackSide = backSide;
             this.Counter = 2;
         }
+
+  
 
     }
 }

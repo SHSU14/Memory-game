@@ -18,6 +18,17 @@ namespace MemoryGame
         {
             this.startForm = startForm;
             InitializeComponent();
+#if ALI
+         Shuffle();
+#endif
+        }
+
+        private void Shuffle()
+        {
+            var mcList = new System.Collections.Generic.List<MemoryCardControl>();
+            mcList = this.Controls.OfType<MemoryCardControl>().ToList();
+            CardShuffler shuffler = new CardShuffler(new Settings());
+            shuffler.Shuffle(mcList);
         }
 
 

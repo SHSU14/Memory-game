@@ -1,4 +1,6 @@
-﻿namespace MemoryGame
+﻿using System.Linq;
+
+namespace MemoryGame
 {
     partial class GameBoardForm
     {
@@ -58,29 +60,7 @@
             this.memoryCardControl10 = new MemoryGame.MemoryCardControl();
             this.memoryCardControl11 = new MemoryGame.MemoryCardControl();
             this.memoryCardControl12 = new MemoryGame.MemoryCardControl();
-#if ALI
-          
-        System.Collections.Generic.List<MemoryCardControl> mcList = new System.Collections.Generic.List<MemoryCardControl>();
 
- 
-            mcList.Add(this.memoryCardControl12);
-            mcList.Add(this.memoryCardControl11);
-            mcList.Add(this.memoryCardControl10);
-            mcList.Add(this.memoryCardControl9);
-            mcList.Add(this.memoryCardControl8);
-            mcList.Add(this.memoryCardControl7);
-            mcList.Add(this.memoryCardControl6);
-            mcList.Add(this.memoryCardControl5);
-            mcList.Add(this.memoryCardControl4);
-            mcList.Add(this.memoryCardControl3);
-            mcList.Add(this.memoryCardControl2);
-            mcList.Add(this.memoryCardControl1);
-
-            CardShuffler shuffler = new CardShuffler(new Settings());
-            shuffler.Shuffle(mcList);
-
-
-#endif
             this.btnDone = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl1)).BeginInit();

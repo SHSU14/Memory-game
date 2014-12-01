@@ -8,29 +8,32 @@ namespace MemoryGame
 {
    public class CardShuffler
     {
-        private List<MemoryCard> cardList;
         private Settings settings;
 
         public CardShuffler(Settings settings) 
         {
             this.settings = new Settings();
-            GenerateCards();
         }
 
-        private void GenerateCards()
+       //genererar en lista med MemoryCards baserat på settings
+        private List<MemoryCard> GenerateCards(int noCards)
         {
-            int noCards = settings.CardNumber / 2;
-            cardList = new List<MemoryCard>(noCards);
+            var cardList = new List<MemoryCard>(noCards);
             for (int i = 0; i < noCards; i++)
             {
                 var backSide = settings.Themes + "BackSide";
                 var symbol = settings.Themes + i.ToString();
                 cardList.Add(new MemoryCard(backSide, symbol));
             }
+            return cardList;
         }
 
+
+       //Tar en lista med MemoryCardControls och kopplar dem till ett slumpvis MemoryCard 
+       //så att det finns två MemoryCardControls som pekar på varje MemoryCard.
         public void Shuffle(List<MemoryCardControl> controlList)
         {
+            var cardList = GenerateCards(controlList.Count / 2);
             var rnd = new Random();
             for (int i = 0; i < controlList.Count; i++)
             {
@@ -39,7 +42,7 @@ namespace MemoryGame
                 controlList[i].Data = card;
                 card.Counter -= 1;
                 if (card.Counter == 0)
-                    this.cardList.RemoveAt(index); 
+                    cardList.RemoveAt(index); 
             }
         }
 
