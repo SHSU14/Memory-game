@@ -132,7 +132,7 @@
             this.cmb_spelare.Name = "cmb_spelare";
             this.cmb_spelare.Size = new System.Drawing.Size(102, 21);
             this.cmb_spelare.TabIndex = 17;
-            this.cmb_spelare.Text = "0 - 10";
+            this.cmb_spelare.Text = "0";
             // 
             // cmb_AI
             // 
@@ -155,7 +155,7 @@
             this.cmb_AI.Name = "cmb_AI";
             this.cmb_AI.Size = new System.Drawing.Size(102, 21);
             this.cmb_AI.TabIndex = 16;
-            this.cmb_AI.Text = "0 - 10";
+            this.cmb_AI.Text = "0";
             // 
             // label3
             // 
