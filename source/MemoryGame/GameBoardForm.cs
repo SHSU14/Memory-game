@@ -18,9 +18,9 @@ namespace MemoryGame
         {
             this.startForm = startForm;
             InitializeComponent();
-#if ALI
+
          Shuffle();
-#endif
+
         }
 
         private void Shuffle()
