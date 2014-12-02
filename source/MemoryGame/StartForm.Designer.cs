@@ -28,64 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.rBtn_level2 = new System.Windows.Forms.RadioButton();
-            this.rBtn_level3 = new System.Windows.Forms.RadioButton();
-            this.rBtn_level1 = new System.Windows.Forms.RadioButton();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.nud_sec2 = new System.Windows.Forms.NumericUpDown();
-            this.nud_sec1 = new System.Windows.Forms.NumericUpDown();
-            this.AntalKort = new System.Windows.Forms.NumericUpDown();
+            this.nud_ShowCardTimer = new System.Windows.Forms.NumericUpDown();
+            this.nud_PlayerTurnTimer = new System.Windows.Forms.NumericUpDown();
+            this.num_Cardnumber = new System.Windows.Forms.NumericUpDown();
             this.cmb_spelare = new System.Windows.Forms.ComboBox();
             this.cmb_AI = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_starta = new System.Windows.Forms.Button();
-            this.rBtn_tema1 = new System.Windows.Forms.RadioButton();
-            this.rBtn_tema3 = new System.Windows.Forms.RadioButton();
-            this.rBtn_tema2 = new System.Windows.Forms.RadioButton();
             this.Tema = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.nud_sec2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nud_sec1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AntalKort)).BeginInit();
+            this.cmb_Level = new System.Windows.Forms.ComboBox();
+            this.cmb_Themes = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_ShowCardTimer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_PlayerTurnTimer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_Cardnumber)).BeginInit();
             this.SuspendLayout();
-            // 
-            // rBtn_level2
-            // 
-            this.rBtn_level2.AutoSize = true;
-            this.rBtn_level2.Location = new System.Drawing.Point(296, 129);
-            this.rBtn_level2.Margin = new System.Windows.Forms.Padding(2);
-            this.rBtn_level2.Name = "rBtn_level2";
-            this.rBtn_level2.Size = new System.Drawing.Size(56, 17);
-            this.rBtn_level2.TabIndex = 25;
-            this.rBtn_level2.TabStop = true;
-            this.rBtn_level2.Text = "Nivå 2";
-            this.rBtn_level2.UseVisualStyleBackColor = true;
-            // 
-            // rBtn_level3
-            // 
-            this.rBtn_level3.AutoSize = true;
-            this.rBtn_level3.Location = new System.Drawing.Point(352, 129);
-            this.rBtn_level3.Margin = new System.Windows.Forms.Padding(2);
-            this.rBtn_level3.Name = "rBtn_level3";
-            this.rBtn_level3.Size = new System.Drawing.Size(56, 17);
-            this.rBtn_level3.TabIndex = 24;
-            this.rBtn_level3.TabStop = true;
-            this.rBtn_level3.Text = "Nivå 3";
-            this.rBtn_level3.UseVisualStyleBackColor = true;
-            // 
-            // rBtn_level1
-            // 
-            this.rBtn_level1.AutoSize = true;
-            this.rBtn_level1.Location = new System.Drawing.Point(236, 129);
-            this.rBtn_level1.Margin = new System.Windows.Forms.Padding(2);
-            this.rBtn_level1.Name = "rBtn_level1";
-            this.rBtn_level1.Size = new System.Drawing.Size(56, 17);
-            this.rBtn_level1.TabIndex = 23;
-            this.rBtn_level1.TabStop = true;
-            this.rBtn_level1.Text = "Nivå 1";
-            this.rBtn_level1.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -107,45 +67,45 @@
             this.label4.TabIndex = 21;
             this.label4.Text = "Betänketid (sec):";
             // 
-            // nud_sec2
+            // nud_ShowCardTimer
             // 
-            this.nud_sec2.Location = new System.Drawing.Point(265, 250);
-            this.nud_sec2.Margin = new System.Windows.Forms.Padding(2);
-            this.nud_sec2.Name = "nud_sec2";
-            this.nud_sec2.Size = new System.Drawing.Size(71, 20);
-            this.nud_sec2.TabIndex = 20;
+            this.nud_ShowCardTimer.Location = new System.Drawing.Point(265, 250);
+            this.nud_ShowCardTimer.Margin = new System.Windows.Forms.Padding(2);
+            this.nud_ShowCardTimer.Name = "nud_ShowCardTimer";
+            this.nud_ShowCardTimer.Size = new System.Drawing.Size(71, 20);
+            this.nud_ShowCardTimer.TabIndex = 20;
             // 
-            // nud_sec1
+            // nud_PlayerTurnTimer
             // 
-            this.nud_sec1.Location = new System.Drawing.Point(265, 225);
-            this.nud_sec1.Margin = new System.Windows.Forms.Padding(2);
-            this.nud_sec1.Name = "nud_sec1";
-            this.nud_sec1.Size = new System.Drawing.Size(71, 20);
-            this.nud_sec1.TabIndex = 19;
+            this.nud_PlayerTurnTimer.Location = new System.Drawing.Point(265, 225);
+            this.nud_PlayerTurnTimer.Margin = new System.Windows.Forms.Padding(2);
+            this.nud_PlayerTurnTimer.Name = "nud_PlayerTurnTimer";
+            this.nud_PlayerTurnTimer.Size = new System.Drawing.Size(71, 20);
+            this.nud_PlayerTurnTimer.TabIndex = 19;
             // 
-            // AntalKort
+            // num_Cardnumber
             // 
-            this.AntalKort.Increment = new decimal(new int[] {
+            this.num_Cardnumber.Increment = new decimal(new int[] {
             2,
             0,
             0,
             0});
-            this.AntalKort.Location = new System.Drawing.Point(236, 158);
-            this.AntalKort.Margin = new System.Windows.Forms.Padding(2);
-            this.AntalKort.Maximum = new decimal(new int[] {
+            this.num_Cardnumber.Location = new System.Drawing.Point(236, 158);
+            this.num_Cardnumber.Margin = new System.Windows.Forms.Padding(2);
+            this.num_Cardnumber.Maximum = new decimal(new int[] {
             120,
             0,
             0,
             0});
-            this.AntalKort.Minimum = new decimal(new int[] {
+            this.num_Cardnumber.Minimum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.AntalKort.Name = "AntalKort";
-            this.AntalKort.Size = new System.Drawing.Size(100, 20);
-            this.AntalKort.TabIndex = 18;
-            this.AntalKort.Value = new decimal(new int[] {
+            this.num_Cardnumber.Name = "num_Cardnumber";
+            this.num_Cardnumber.Size = new System.Drawing.Size(100, 20);
+            this.num_Cardnumber.TabIndex = 18;
+            this.num_Cardnumber.Value = new decimal(new int[] {
             12,
             0,
             0,
@@ -172,7 +132,7 @@
             this.cmb_spelare.Name = "cmb_spelare";
             this.cmb_spelare.Size = new System.Drawing.Size(102, 21);
             this.cmb_spelare.TabIndex = 17;
-            this.cmb_spelare.Text = "0 - 10";
+            this.cmb_spelare.Text = "2";
             // 
             // cmb_AI
             // 
@@ -195,7 +155,7 @@
             this.cmb_AI.Name = "cmb_AI";
             this.cmb_AI.Size = new System.Drawing.Size(102, 21);
             this.cmb_AI.TabIndex = 16;
-            this.cmb_AI.Text = "0 - 10";
+            this.cmb_AI.Text = "0";
             // 
             // label3
             // 
@@ -238,42 +198,6 @@
             this.btn_starta.UseVisualStyleBackColor = true;
             this.btn_starta.Click += new System.EventHandler(this.btn_starta_Click);
             // 
-            // rBtn_tema1
-            // 
-            this.rBtn_tema1.AutoSize = true;
-            this.rBtn_tema1.Location = new System.Drawing.Point(232, 196);
-            this.rBtn_tema1.Margin = new System.Windows.Forms.Padding(2);
-            this.rBtn_tema1.Name = "rBtn_tema1";
-            this.rBtn_tema1.Size = new System.Drawing.Size(58, 17);
-            this.rBtn_tema1.TabIndex = 27;
-            this.rBtn_tema1.TabStop = true;
-            this.rBtn_tema1.Text = "Tema1";
-            this.rBtn_tema1.UseVisualStyleBackColor = true;
-            // 
-            // rBtn_tema3
-            // 
-            this.rBtn_tema3.AutoSize = true;
-            this.rBtn_tema3.Location = new System.Drawing.Point(350, 196);
-            this.rBtn_tema3.Margin = new System.Windows.Forms.Padding(2);
-            this.rBtn_tema3.Name = "rBtn_tema3";
-            this.rBtn_tema3.Size = new System.Drawing.Size(58, 17);
-            this.rBtn_tema3.TabIndex = 28;
-            this.rBtn_tema3.TabStop = true;
-            this.rBtn_tema3.Text = "Tema3";
-            this.rBtn_tema3.UseVisualStyleBackColor = true;
-            // 
-            // rBtn_tema2
-            // 
-            this.rBtn_tema2.AutoSize = true;
-            this.rBtn_tema2.Location = new System.Drawing.Point(288, 196);
-            this.rBtn_tema2.Margin = new System.Windows.Forms.Padding(2);
-            this.rBtn_tema2.Name = "rBtn_tema2";
-            this.rBtn_tema2.Size = new System.Drawing.Size(58, 17);
-            this.rBtn_tema2.TabIndex = 29;
-            this.rBtn_tema2.TabStop = true;
-            this.rBtn_tema2.Text = "Tema2";
-            this.rBtn_tema2.UseVisualStyleBackColor = true;
-            // 
             // Tema
             // 
             this.Tema.AutoSize = true;
@@ -284,24 +208,46 @@
             this.Tema.TabIndex = 30;
             this.Tema.Text = "Tema:";
             // 
+            // cmb_Level
+            // 
+            this.cmb_Level.FormattingEnabled = true;
+            this.cmb_Level.Items.AddRange(new object[] {
+            "Lätt",
+            "Medel ",
+            "Svår"});
+            this.cmb_Level.Location = new System.Drawing.Point(236, 112);
+            this.cmb_Level.Name = "cmb_Level";
+            this.cmb_Level.Size = new System.Drawing.Size(104, 21);
+            this.cmb_Level.TabIndex = 31;
+            this.cmb_Level.Text = "Nivå";
+            // 
+            // cmb_Themes
+            // 
+            this.cmb_Themes.FormattingEnabled = true;
+            this.cmb_Themes.Items.AddRange(new object[] {
+            "Tema1",
+            "Tema2",
+            "Tema3"});
+            this.cmb_Themes.Location = new System.Drawing.Point(236, 192);
+            this.cmb_Themes.Name = "cmb_Themes";
+            this.cmb_Themes.Size = new System.Drawing.Size(121, 21);
+            this.cmb_Themes.TabIndex = 32;
+            this.cmb_Themes.Text = "Tema";
+            // 
             // StartForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(524, 373);
+            this.Controls.Add(this.cmb_Themes);
+            this.Controls.Add(this.cmb_Level);
             this.Controls.Add(this.Tema);
-            this.Controls.Add(this.rBtn_tema2);
-            this.Controls.Add(this.rBtn_tema3);
-            this.Controls.Add(this.rBtn_tema1);
             this.Controls.Add(this.btn_starta);
-            this.Controls.Add(this.rBtn_level2);
-            this.Controls.Add(this.rBtn_level3);
-            this.Controls.Add(this.rBtn_level1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.nud_sec2);
-            this.Controls.Add(this.nud_sec1);
-            this.Controls.Add(this.AntalKort);
+            this.Controls.Add(this.nud_ShowCardTimer);
+            this.Controls.Add(this.nud_PlayerTurnTimer);
+            this.Controls.Add(this.num_Cardnumber);
             this.Controls.Add(this.cmb_spelare);
             this.Controls.Add(this.cmb_AI);
             this.Controls.Add(this.label3);
@@ -311,9 +257,9 @@
             this.Name = "StartForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Memory ";
-            ((System.ComponentModel.ISupportInitialize)(this.nud_sec2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nud_sec1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AntalKort)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_ShowCardTimer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_PlayerTurnTimer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_Cardnumber)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -321,23 +267,19 @@
 
         #endregion
 
-        private System.Windows.Forms.RadioButton rBtn_level2;
-        private System.Windows.Forms.RadioButton rBtn_level3;
-        private System.Windows.Forms.RadioButton rBtn_level1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.NumericUpDown nud_sec2;
-        private System.Windows.Forms.NumericUpDown nud_sec1;
-        private System.Windows.Forms.NumericUpDown AntalKort;
+        private System.Windows.Forms.NumericUpDown nud_ShowCardTimer;
+        private System.Windows.Forms.NumericUpDown nud_PlayerTurnTimer;
+        private System.Windows.Forms.NumericUpDown num_Cardnumber;
         private System.Windows.Forms.ComboBox cmb_spelare;
         private System.Windows.Forms.ComboBox cmb_AI;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_starta;
-        private System.Windows.Forms.RadioButton rBtn_tema1;
-        private System.Windows.Forms.RadioButton rBtn_tema3;
-        private System.Windows.Forms.RadioButton rBtn_tema2;
         private System.Windows.Forms.Label Tema;
+        private System.Windows.Forms.ComboBox cmb_Level;
+        private System.Windows.Forms.ComboBox cmb_Themes;
     }
 }
