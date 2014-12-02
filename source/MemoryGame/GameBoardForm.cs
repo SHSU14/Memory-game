@@ -22,7 +22,7 @@ namespace MemoryGame
             var settings = new Settings();
 
 
-            int total = settings.CardNumber;
+            int total = 26;
             int columns = (int)Math.Ceiling(Math.Sqrt(total));
 
             int xOffset = 65;

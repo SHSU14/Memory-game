@@ -20,7 +20,7 @@ namespace MemoryGame
         {
             Players = 2;
             AIPlayers = 0;
-            this.CardNumber = 12;
+            CardNumber = 12;
             Themes = "bild";
         }
     }
