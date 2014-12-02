@@ -24,7 +24,7 @@ namespace MemoryGame
             InitializeComponent();
             this.Data = new MemoryCard();
             this.Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(Data.BackSide);
-            this.Size = new System.Drawing.Size(160, 160);
+            this.Size = new System.Drawing.Size(60, 60);
             this.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
