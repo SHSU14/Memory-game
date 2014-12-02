@@ -138,6 +138,186 @@
   <ItemGroup>
     <None Include="Resources\bildBackSide.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frukt59.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
