@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MemoryGame
 {
-    class Settings
+    public class Settings
     {
         public int Players { get; set; }
         public int AIPlayers { get; set; }
