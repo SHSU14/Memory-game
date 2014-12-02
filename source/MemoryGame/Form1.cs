@@ -29,7 +29,7 @@ namespace MemoryGame
             {
                 var y = yOffset * (i / columns) + 20;
                 var x = xOffset * (i % columns) + 20;
-                    var control = new MemoryCardControl();
+                    var control = new MemoryCardControl(new GameBoardForm(new StartForm()));
                     control.Location = new System.Drawing.Point(x, y);
                     this.Controls.Add(control);      
             }

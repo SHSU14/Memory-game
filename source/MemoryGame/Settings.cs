@@ -22,6 +22,8 @@ namespace MemoryGame
             AIPlayers = 0;
             CardNumber = 12;
             Themes = "bild";
+            PlayersTurnTimer = 4;
+            ShowCardTimer = 2;
         }
     }
 }

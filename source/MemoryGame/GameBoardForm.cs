@@ -13,13 +13,19 @@ namespace MemoryGame
     public partial class GameBoardForm : Form
     {
         StartForm startForm;
+        public Timer thinkTimer = new Timer();
+        public Timer cardTimer = new Timer();
 
         public GameBoardForm(StartForm startForm)
         {
             this.startForm = startForm;
+            
             InitializeComponent();
 
             var settings = new Settings();
+
+            thinkTimer.Interval = settings.PlayersTurnTimer*1000;
+            cardTimer.Interval = settings.ShowCardTimer*1000; 
 
 
             int total = 26;
@@ -32,7 +38,12 @@ namespace MemoryGame
             {
                 var y = yOffset * (i / columns) + 20;
                 var x = xOffset * (i % columns) + 20;
-                var control = new MemoryCardControl();
+                var control = new MemoryCardControl(this);
+
+                thinkTimer.Tick += new EventHandler(control.HandleThinkTimer);
+                cardTimer.Tick += new EventHandler(control.HandleCardtimer);
+                //control.cardTimer = cardTimer;
+                //control.thinkTimer = thinkTimer;
                 control.Location = new System.Drawing.Point(x, y);
                 this.Controls.Add(control);
             }
