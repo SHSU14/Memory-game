@@ -30,5 +30,7 @@ namespace MemoryGame
         {
            return MessageBox.Show("Vill du verkligen avsluta?", string.Empty, MessageBoxButtons.YesNo, MessageBoxIcon.Question);   
         }
+
+
     }
 }
