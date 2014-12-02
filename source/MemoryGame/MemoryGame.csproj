@@ -18,7 +18,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;ALI</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CardShuffler.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,7 +58,6 @@
       <DependentUpon>GameBoardForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MemoryCard.cs" />
-    <Compile Include="MemoryCardContainer.cs" />
     <Compile Include="MemoryCardControl.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -115,15 +115,28 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\star.jpg" />
+    <None Include="Resources\bild1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\arrow.jpg" />
+    <None Include="Resources\bild2.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\CardBack.jpg" />
-    <None Include="Resources\star1.jpg" />
-    <None Include="Resources\CardBack1.jpg" />
+    <None Include="Resources\bild3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bildBackSide.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

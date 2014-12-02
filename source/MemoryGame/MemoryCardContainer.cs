@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MemoryGame
 {
-    class MemoryCardContainer
+   public class MemoryCardContainer
     {
         private List<MemoryCard> mcList;
 
@@ -20,5 +20,6 @@ namespace MemoryGame
                 mcList.Add(new MemoryCard (backSide, symbol));
             }
         }
+
     }
 }

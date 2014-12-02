@@ -1,7 +1,10 @@
-﻿namespace MemoryGame
+﻿using System.Linq;
+
+namespace MemoryGame
 {
     partial class GameBoardForm
     {
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -28,49 +31,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameBoardForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nyttToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.startaOmSpeletToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.avslutaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.Player1Pointslabel = new System.Windows.Forms.Label();
-            this.Player2Pointslabel = new System.Windows.Forms.Label();
-            this.Player10Pointslabel = new System.Windows.Forms.Label();
-            this.Player3Pointslabel = new System.Windows.Forms.Label();
-            this.Player4Pointslabel = new System.Windows.Forms.Label();
-            this.Player5Pointslabel = new System.Windows.Forms.Label();
-            this.Player6Pointslabel = new System.Windows.Forms.Label();
-            this.Player7Pointslabel = new System.Windows.Forms.Label();
-            this.Player8Pointslabel = new System.Windows.Forms.Label();
-            this.Player9Pointslabel = new System.Windows.Forms.Label();
-            this.CurrentGametimelabel = new System.Windows.Forms.Label();
-            this.memoryCardControl1 = new MemoryGame.MemoryCardControl();
-            this.memoryCardControl2 = new MemoryGame.MemoryCardControl();
-            this.memoryCardControl3 = new MemoryGame.MemoryCardControl();
-            this.memoryCardControl4 = new MemoryGame.MemoryCardControl();
-            this.memoryCardControl5 = new MemoryGame.MemoryCardControl();
-            this.memoryCardControl6 = new MemoryGame.MemoryCardControl();
-            this.memoryCardControl7 = new MemoryGame.MemoryCardControl();
-            this.memoryCardControl8 = new MemoryGame.MemoryCardControl();
-            this.memoryCardControl9 = new MemoryGame.MemoryCardControl();
-            this.memoryCardControl10 = new MemoryGame.MemoryCardControl();
-            this.memoryCardControl11 = new MemoryGame.MemoryCardControl();
-            this.memoryCardControl12 = new MemoryGame.MemoryCardControl();
             this.btnDone = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl12)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -114,237 +81,6 @@
             this.avslutaToolStripMenuItem.Text = "&Avsluta";
             this.avslutaToolStripMenuItem.Click += new System.EventHandler(this.avslutaToolStripMenuItem_Click);
             // 
-            // Player1Pointslabel
-            // 
-            this.Player1Pointslabel.AutoSize = true;
-            this.Player1Pointslabel.Location = new System.Drawing.Point(580, 84);
-            this.Player1Pointslabel.Name = "Player1Pointslabel";
-            this.Player1Pointslabel.Size = new System.Drawing.Size(52, 13);
-            this.Player1Pointslabel.TabIndex = 1;
-            this.Player1Pointslabel.Text = "Spelare 1";
-            // 
-            // Player2Pointslabel
-            // 
-            this.Player2Pointslabel.AutoSize = true;
-            this.Player2Pointslabel.Location = new System.Drawing.Point(580, 100);
-            this.Player2Pointslabel.Name = "Player2Pointslabel";
-            this.Player2Pointslabel.Size = new System.Drawing.Size(52, 13);
-            this.Player2Pointslabel.TabIndex = 2;
-            this.Player2Pointslabel.Text = "Spelare 2";
-            // 
-            // Player10Pointslabel
-            // 
-            this.Player10Pointslabel.AutoSize = true;
-            this.Player10Pointslabel.Location = new System.Drawing.Point(580, 252);
-            this.Player10Pointslabel.Name = "Player10Pointslabel";
-            this.Player10Pointslabel.Size = new System.Drawing.Size(58, 13);
-            this.Player10Pointslabel.TabIndex = 3;
-            this.Player10Pointslabel.Text = "Spelare 10";
-            // 
-            // Player3Pointslabel
-            // 
-            this.Player3Pointslabel.AutoSize = true;
-            this.Player3Pointslabel.Location = new System.Drawing.Point(580, 120);
-            this.Player3Pointslabel.Name = "Player3Pointslabel";
-            this.Player3Pointslabel.Size = new System.Drawing.Size(52, 13);
-            this.Player3Pointslabel.TabIndex = 4;
-            this.Player3Pointslabel.Text = "Spelare 3";
-            // 
-            // Player4Pointslabel
-            // 
-            this.Player4Pointslabel.AutoSize = true;
-            this.Player4Pointslabel.Location = new System.Drawing.Point(580, 140);
-            this.Player4Pointslabel.Name = "Player4Pointslabel";
-            this.Player4Pointslabel.Size = new System.Drawing.Size(52, 13);
-            this.Player4Pointslabel.TabIndex = 5;
-            this.Player4Pointslabel.Text = "Spelare 4";
-            // 
-            // Player5Pointslabel
-            // 
-            this.Player5Pointslabel.AutoSize = true;
-            this.Player5Pointslabel.Location = new System.Drawing.Point(580, 160);
-            this.Player5Pointslabel.Name = "Player5Pointslabel";
-            this.Player5Pointslabel.Size = new System.Drawing.Size(52, 13);
-            this.Player5Pointslabel.TabIndex = 6;
-            this.Player5Pointslabel.Text = "Spelare 5";
-            // 
-            // Player6Pointslabel
-            // 
-            this.Player6Pointslabel.AutoSize = true;
-            this.Player6Pointslabel.Location = new System.Drawing.Point(580, 176);
-            this.Player6Pointslabel.Name = "Player6Pointslabel";
-            this.Player6Pointslabel.Size = new System.Drawing.Size(52, 13);
-            this.Player6Pointslabel.TabIndex = 7;
-            this.Player6Pointslabel.Text = "Spelare 6";
-            // 
-            // Player7Pointslabel
-            // 
-            this.Player7Pointslabel.AutoSize = true;
-            this.Player7Pointslabel.Location = new System.Drawing.Point(580, 196);
-            this.Player7Pointslabel.Name = "Player7Pointslabel";
-            this.Player7Pointslabel.Size = new System.Drawing.Size(52, 13);
-            this.Player7Pointslabel.TabIndex = 8;
-            this.Player7Pointslabel.Text = "Spelare 7";
-            // 
-            // Player8Pointslabel
-            // 
-            this.Player8Pointslabel.AutoSize = true;
-            this.Player8Pointslabel.Location = new System.Drawing.Point(580, 216);
-            this.Player8Pointslabel.Name = "Player8Pointslabel";
-            this.Player8Pointslabel.Size = new System.Drawing.Size(52, 13);
-            this.Player8Pointslabel.TabIndex = 9;
-            this.Player8Pointslabel.Text = "Spelare 8";
-            // 
-            // Player9Pointslabel
-            // 
-            this.Player9Pointslabel.AutoSize = true;
-            this.Player9Pointslabel.Location = new System.Drawing.Point(580, 236);
-            this.Player9Pointslabel.Name = "Player9Pointslabel";
-            this.Player9Pointslabel.Size = new System.Drawing.Size(52, 13);
-            this.Player9Pointslabel.TabIndex = 10;
-            this.Player9Pointslabel.Text = "Spelare 9";
-            // 
-            // CurrentGametimelabel
-            // 
-            this.CurrentGametimelabel.AutoSize = true;
-            this.CurrentGametimelabel.Location = new System.Drawing.Point(580, 36);
-            this.CurrentGametimelabel.Name = "CurrentGametimelabel";
-            this.CurrentGametimelabel.Size = new System.Drawing.Size(58, 13);
-            this.CurrentGametimelabel.TabIndex = 12;
-            this.CurrentGametimelabel.Text = "Betänketid";
-            // 
-            // memoryCardControl1
-            // 
-            this.memoryCardControl1.Image = ((System.Drawing.Image)(resources.GetObject("memoryCardControl1.Image")));
-            this.memoryCardControl1.Location = new System.Drawing.Point(19, 24);
-            this.memoryCardControl1.Margin = new System.Windows.Forms.Padding(2);
-            this.memoryCardControl1.Name = "memoryCardControl1";
-            this.memoryCardControl1.Size = new System.Drawing.Size(120, 130);
-            this.memoryCardControl1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.memoryCardControl1.TabIndex = 13;
-            this.memoryCardControl1.TabStop = false;
-            // 
-            // memoryCardControl2
-            // 
-            this.memoryCardControl2.Image = ((System.Drawing.Image)(resources.GetObject("memoryCardControl2.Image")));
-            this.memoryCardControl2.Location = new System.Drawing.Point(150, 24);
-            this.memoryCardControl2.Margin = new System.Windows.Forms.Padding(2);
-            this.memoryCardControl2.Name = "memoryCardControl2";
-            this.memoryCardControl2.Size = new System.Drawing.Size(120, 130);
-            this.memoryCardControl2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.memoryCardControl2.TabIndex = 14;
-            this.memoryCardControl2.TabStop = false;
-            // 
-            // memoryCardControl3
-            // 
-            this.memoryCardControl3.Image = ((System.Drawing.Image)(resources.GetObject("memoryCardControl3.Image")));
-            this.memoryCardControl3.Location = new System.Drawing.Point(285, 24);
-            this.memoryCardControl3.Margin = new System.Windows.Forms.Padding(2);
-            this.memoryCardControl3.Name = "memoryCardControl3";
-            this.memoryCardControl3.Size = new System.Drawing.Size(120, 130);
-            this.memoryCardControl3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.memoryCardControl3.TabIndex = 15;
-            this.memoryCardControl3.TabStop = false;
-            // 
-            // memoryCardControl4
-            // 
-            this.memoryCardControl4.Image = ((System.Drawing.Image)(resources.GetObject("memoryCardControl4.Image")));
-            this.memoryCardControl4.Location = new System.Drawing.Point(425, 24);
-            this.memoryCardControl4.Margin = new System.Windows.Forms.Padding(2);
-            this.memoryCardControl4.Name = "memoryCardControl4";
-            this.memoryCardControl4.Size = new System.Drawing.Size(120, 130);
-            this.memoryCardControl4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.memoryCardControl4.TabIndex = 16;
-            this.memoryCardControl4.TabStop = false;
-            // 
-            // memoryCardControl5
-            // 
-            this.memoryCardControl5.Image = ((System.Drawing.Image)(resources.GetObject("memoryCardControl5.Image")));
-            this.memoryCardControl5.Location = new System.Drawing.Point(19, 167);
-            this.memoryCardControl5.Margin = new System.Windows.Forms.Padding(2);
-            this.memoryCardControl5.Name = "memoryCardControl5";
-            this.memoryCardControl5.Size = new System.Drawing.Size(120, 130);
-            this.memoryCardControl5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.memoryCardControl5.TabIndex = 17;
-            this.memoryCardControl5.TabStop = false;
-            // 
-            // memoryCardControl6
-            // 
-            this.memoryCardControl6.Image = ((System.Drawing.Image)(resources.GetObject("memoryCardControl6.Image")));
-            this.memoryCardControl6.Location = new System.Drawing.Point(150, 167);
-            this.memoryCardControl6.Margin = new System.Windows.Forms.Padding(2);
-            this.memoryCardControl6.Name = "memoryCardControl6";
-            this.memoryCardControl6.Size = new System.Drawing.Size(120, 130);
-            this.memoryCardControl6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.memoryCardControl6.TabIndex = 18;
-            this.memoryCardControl6.TabStop = false;
-            // 
-            // memoryCardControl7
-            // 
-            this.memoryCardControl7.Image = ((System.Drawing.Image)(resources.GetObject("memoryCardControl7.Image")));
-            this.memoryCardControl7.Location = new System.Drawing.Point(285, 167);
-            this.memoryCardControl7.Margin = new System.Windows.Forms.Padding(2);
-            this.memoryCardControl7.Name = "memoryCardControl7";
-            this.memoryCardControl7.Size = new System.Drawing.Size(120, 130);
-            this.memoryCardControl7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.memoryCardControl7.TabIndex = 19;
-            this.memoryCardControl7.TabStop = false;
-            // 
-            // memoryCardControl8
-            // 
-            this.memoryCardControl8.Image = ((System.Drawing.Image)(resources.GetObject("memoryCardControl8.Image")));
-            this.memoryCardControl8.Location = new System.Drawing.Point(425, 167);
-            this.memoryCardControl8.Margin = new System.Windows.Forms.Padding(2);
-            this.memoryCardControl8.Name = "memoryCardControl8";
-            this.memoryCardControl8.Size = new System.Drawing.Size(120, 130);
-            this.memoryCardControl8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.memoryCardControl8.TabIndex = 20;
-            this.memoryCardControl8.TabStop = false;
-            // 
-            // memoryCardControl9
-            // 
-            this.memoryCardControl9.Image = ((System.Drawing.Image)(resources.GetObject("memoryCardControl9.Image")));
-            this.memoryCardControl9.Location = new System.Drawing.Point(19, 314);
-            this.memoryCardControl9.Margin = new System.Windows.Forms.Padding(2);
-            this.memoryCardControl9.Name = "memoryCardControl9";
-            this.memoryCardControl9.Size = new System.Drawing.Size(120, 130);
-            this.memoryCardControl9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.memoryCardControl9.TabIndex = 21;
-            this.memoryCardControl9.TabStop = false;
-            // 
-            // memoryCardControl10
-            // 
-            this.memoryCardControl10.Image = ((System.Drawing.Image)(resources.GetObject("memoryCardControl10.Image")));
-            this.memoryCardControl10.Location = new System.Drawing.Point(150, 314);
-            this.memoryCardControl10.Margin = new System.Windows.Forms.Padding(2);
-            this.memoryCardControl10.Name = "memoryCardControl10";
-            this.memoryCardControl10.Size = new System.Drawing.Size(120, 130);
-            this.memoryCardControl10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.memoryCardControl10.TabIndex = 22;
-            this.memoryCardControl10.TabStop = false;
-            // 
-            // memoryCardControl11
-            // 
-            this.memoryCardControl11.Image = ((System.Drawing.Image)(resources.GetObject("memoryCardControl11.Image")));
-            this.memoryCardControl11.Location = new System.Drawing.Point(285, 314);
-            this.memoryCardControl11.Margin = new System.Windows.Forms.Padding(2);
-            this.memoryCardControl11.Name = "memoryCardControl11";
-            this.memoryCardControl11.Size = new System.Drawing.Size(120, 130);
-            this.memoryCardControl11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.memoryCardControl11.TabIndex = 23;
-            this.memoryCardControl11.TabStop = false;
-            // 
-            // memoryCardControl12
-            // 
-            this.memoryCardControl12.Image = ((System.Drawing.Image)(resources.GetObject("memoryCardControl12.Image")));
-            this.memoryCardControl12.Location = new System.Drawing.Point(425, 314);
-            this.memoryCardControl12.Margin = new System.Windows.Forms.Padding(2);
-            this.memoryCardControl12.Name = "memoryCardControl12";
-            this.memoryCardControl12.Size = new System.Drawing.Size(120, 130);
-            this.memoryCardControl12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.memoryCardControl12.TabIndex = 24;
-            this.memoryCardControl12.TabStop = false;
-            // 
             // btnDone
             // 
             this.btnDone.Location = new System.Drawing.Point(569, 422);
@@ -363,29 +99,6 @@
             this.ClientSize = new System.Drawing.Size(660, 460);
             this.ControlBox = false;
             this.Controls.Add(this.btnDone);
-            this.Controls.Add(this.memoryCardControl12);
-            this.Controls.Add(this.memoryCardControl11);
-            this.Controls.Add(this.memoryCardControl10);
-            this.Controls.Add(this.memoryCardControl9);
-            this.Controls.Add(this.memoryCardControl8);
-            this.Controls.Add(this.memoryCardControl7);
-            this.Controls.Add(this.memoryCardControl6);
-            this.Controls.Add(this.memoryCardControl5);
-            this.Controls.Add(this.memoryCardControl4);
-            this.Controls.Add(this.memoryCardControl3);
-            this.Controls.Add(this.memoryCardControl2);
-            this.Controls.Add(this.memoryCardControl1);
-            this.Controls.Add(this.CurrentGametimelabel);
-            this.Controls.Add(this.Player9Pointslabel);
-            this.Controls.Add(this.Player8Pointslabel);
-            this.Controls.Add(this.Player7Pointslabel);
-            this.Controls.Add(this.Player6Pointslabel);
-            this.Controls.Add(this.Player5Pointslabel);
-            this.Controls.Add(this.Player4Pointslabel);
-            this.Controls.Add(this.Player3Pointslabel);
-            this.Controls.Add(this.Player10Pointslabel);
-            this.Controls.Add(this.Player2Pointslabel);
-            this.Controls.Add(this.Player1Pointslabel);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GameBoardForm";
@@ -393,18 +106,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoryCardControl12)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -417,29 +118,6 @@
         private System.Windows.Forms.ToolStripMenuItem nyttToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem startaOmSpeletToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem avslutaToolStripMenuItem;
-        private System.Windows.Forms.Label Player1Pointslabel;
-        private System.Windows.Forms.Label Player2Pointslabel;
-        private System.Windows.Forms.Label Player10Pointslabel;
-        private System.Windows.Forms.Label Player3Pointslabel;
-        private System.Windows.Forms.Label Player4Pointslabel;
-        private System.Windows.Forms.Label Player5Pointslabel;
-        private System.Windows.Forms.Label Player6Pointslabel;
-        private System.Windows.Forms.Label Player7Pointslabel;
-        private System.Windows.Forms.Label Player8Pointslabel;
-        private System.Windows.Forms.Label Player9Pointslabel;
-        private System.Windows.Forms.Label CurrentGametimelabel;
-        private MemoryCardControl memoryCardControl1;
-        private MemoryCardControl memoryCardControl2;
-        private MemoryCardControl memoryCardControl3;
-        private MemoryCardControl memoryCardControl4;
-        private MemoryCardControl memoryCardControl5;
-        private MemoryCardControl memoryCardControl6;
-        private MemoryCardControl memoryCardControl7;
-        private MemoryCardControl memoryCardControl8;
-        private MemoryCardControl memoryCardControl9;
-        private MemoryCardControl memoryCardControl10;
-        private MemoryCardControl memoryCardControl11;
-        private MemoryCardControl memoryCardControl12;
         private System.Windows.Forms.Button btnDone;
     }
 }

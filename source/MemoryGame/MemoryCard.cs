@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MemoryGame
 {
-    class MemoryCard
+    public class MemoryCard
     {
         public int ID { get; set; }
         public string Symbol { get; set; }
@@ -16,15 +16,19 @@ namespace MemoryGame
         //skapar nytt memoryCard med default-inställningar
         public MemoryCard()
         { 
-            this.Symbol = "star1";
-            this.BackSide = "CardBack";
+            this.Symbol = "bild1";
+            this.BackSide = "bildBackSide";
+            this.Counter = 2;
         }
 
         public MemoryCard(string backSide, string symbol)
         {
             this.Symbol = symbol;
             this.BackSide = backSide;
+            this.Counter = 2;
         }
+
+  
 
     }
 }

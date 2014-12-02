@@ -18,6 +18,38 @@ namespace MemoryGame
         {
             this.startForm = startForm;
             InitializeComponent();
+
+            var settings = new Settings();
+
+
+            int total = 26;
+            int columns = (int)Math.Ceiling(Math.Sqrt(total));
+
+            int xOffset = 65;
+            int yOffset = 65;
+
+            for (int i = 0; i < total; i++)
+            {
+                var y = yOffset * (i / columns) + 20;
+                var x = xOffset * (i % columns) + 20;
+                var control = new MemoryCardControl();
+                control.Location = new System.Drawing.Point(x, y);
+                this.Controls.Add(control);
+            }
+
+            this.Size = new Size(columns * xOffset + 50, (total + columns - 1) / columns * yOffset + 70);
+            Shuffle();
+
+         Shuffle();
+
+        }
+
+        private void Shuffle()
+        {
+            var mcList = new System.Collections.Generic.List<MemoryCardControl>();
+            mcList = this.Controls.OfType<MemoryCardControl>().ToList();
+            CardShuffler shuffler = new CardShuffler(new Settings());
+            shuffler.Shuffle(mcList);
         }
 
 
