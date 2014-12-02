@@ -21,7 +21,7 @@ namespace MemoryGame
             Players = 2;
             AIPlayers = 0;
             CardNumber = 12;
-            Themes = "bild";
+            Themes = "frukt";
             PlayersTurnTimer = 4;
             ShowCardTimer = 2;
         }

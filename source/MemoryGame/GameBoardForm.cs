@@ -19,16 +19,18 @@ namespace MemoryGame
         public GameBoardForm(StartForm startForm)
         {
             this.startForm = startForm;
+            var settings = startForm.settings;
+            this.Game = new Game(settings);
+            this.Text = Game.CurrentPlayer.Name; 
             
             InitializeComponent();
 
-            var settings = new Settings();
-
+            
             thinkTimer.Interval = settings.PlayersTurnTimer*1000;
             cardTimer.Interval = settings.ShowCardTimer*1000; 
 
 
-            int total = 26;
+            int total = settings.CardNumber;
             int columns = (int)Math.Ceiling(Math.Sqrt(total));
 
             int xOffset = 65;
@@ -42,16 +44,15 @@ namespace MemoryGame
 
                 thinkTimer.Tick += new EventHandler(control.HandleThinkTimer);
                 cardTimer.Tick += new EventHandler(control.HandleCardtimer);
-                //control.cardTimer = cardTimer;
-                //control.thinkTimer = thinkTimer;
                 control.Location = new System.Drawing.Point(x, y);
                 this.Controls.Add(control);
             }
 
+            
+
             this.Size = new Size(columns * xOffset + 50, (total + columns - 1) / columns * yOffset + 70);
             Shuffle();
 
-         Shuffle();
 
         }
 
@@ -91,6 +92,26 @@ namespace MemoryGame
         {
             if (startForm.ExitGame() == DialogResult.Yes)
                 Application.Exit();
+        }
+
+        public Game Game { get; set; }
+
+        public void NextPlayer()
+        {
+            Game.NextPlayer();
+            this.Text = Game.CurrentPlayer.Name;
+        }
+
+        public void AddScore()
+        {
+            Game.CurrentPlayer.Score += 1;
+            Game.Score += 1;
+
+            if (Game.Score == this.startForm.settings.CardNumber / 2)
+            {
+                Game.Winner();
+            }
+            
         }
     }
 }

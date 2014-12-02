@@ -17,83 +17,99 @@ namespace MemoryGame
         //Här lagras informationen om vilken bild kortet har
         public MemoryCard Data;
         public bool matched;
-        public Timer cardTimer;
-        public Timer thinkTimer;
-        private bool sentTimer = false;
+        private Timer cardTimer;
+        private Timer thinkTimer;
+        private Game game;
+        private GameBoardForm gameBoardForm;
 
-
-        private bool flipped = false; //sant om kortet är öppet, alltså visar sin symbol och inte baksidebilden
+        private bool open = false; //sant om kortet är öppet, alltså visar sin symbol och inte baksidebilden
 
         public MemoryCardControl(GameBoardForm form)
         {
             InitializeComponent();
+            this.gameBoardForm = form;
             this.thinkTimer = form.thinkTimer;
             this.cardTimer = form.cardTimer;
+            this.game = form.Game;
             this.Data = new MemoryCard();
             this.Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(Data.BackSide);
             this.Size = new System.Drawing.Size(60, 60);
             this.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
+
+        //Anropas när timern som håller koll på hur länge ett kort ska vara öppet gått ut.
         public void HandleCardtimer(Object sender, EventArgs e)
         {
-            if (!IsMatched() && flipped)
+            cardTimer.Stop();
+            if (!IsMatched() && open)
             {
-                Flip();
-                cardTimer.Stop();
-                sentTimer = false;
+                Close();
+                game.FlagNextPlayer();
+                gameBoardForm.NextPlayer();
             }
 
         }
 
+        //Anropas när timern som håller koll på hur lång betänketid man har innan man måste öppna nästa kort gått ut.
         public void HandleThinkTimer(Object sender, EventArgs e)
         {
-            if (sentTimer && !IsMatched() && flipped)
+            if ( !IsMatched() && open)
             {
-                Flip();
+                Close();
                 MessageBox.Show("Tiden är ute!");
                 thinkTimer.Stop();
-                sentTimer = false;
+                gameBoardForm.NextPlayer();
+
             }
 
         }
 
-        //"vänder" memorykortet, d v s byter bild.
-        private void Flip()
+        //"Öppnar" kortet d v s visar bilden
+        private void Open()
         {
-            if (flipped)
+            if (thinkTimer.Enabled)
             {
-                Data.Counter--;
-                Image = (Image) global::MemoryGame.Properties.Resources.ResourceManager.GetObject(Data.BackSide);
+                thinkTimer.Stop();
+                cardTimer.Start();
             }
             else
             {
-                if (!sentTimer && thinkTimer.Enabled)
-                {
-                    thinkTimer.Stop();
-                    cardTimer.Start();
-                }
-                else
-                {
-                    thinkTimer.Start();
-                    sentTimer = true;
-                }
-                Image = (Image) global::MemoryGame.Properties.Resources.ResourceManager.GetObject(Data.Symbol);
-                Data.Counter++;
+                thinkTimer.Start();
             }
-            flipped = !flipped;
+            Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(Data.Symbol);
+            Data.Counter++;
+
+            if (Data.Counter == 2)
+                gameBoardForm.AddScore();
+
+            open = true;
         }
+
+        //"Stänger kortet" d v s visar baksidan
+        private void Close()
+        {
+            Data.Counter--;
+            Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(Data.BackSide);
+            open = false;
+        }
+        
 
         private bool IsMatched()
         {
             return (this.Data.Counter == 2);
         }
 
-        //overridar OnClick så att den alltid anropar Flip()
+        //overridar basklassens OnClick event
         protected override void OnClick(EventArgs e)
         {
             base.OnClick(e);
-            Flip();
+            if (open || this.cardTimer.Enabled)
+                return;
+            else
+            {
+                Open();
+            }
         }
 
 
