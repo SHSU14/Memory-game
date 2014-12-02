@@ -142,4 +142,184 @@
   <data name="bildBackSide" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bildBackSide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="frukt0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
