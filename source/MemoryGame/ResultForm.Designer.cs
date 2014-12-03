@@ -81,16 +81,6 @@
             this.Score_label.TabIndex = 16;
             this.Score_label.Text = "POÄNG";
             // 
-            // score1_label
-            // 
-            this.score1_label.AutoSize = true;
-            this.score1_label.Location = new System.Drawing.Point(325, 98);
-            this.score1_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.score1_label.Name = "score1_label";
-            this.score1_label.Size = new System.Drawing.Size(70, 20);
-            this.score1_label.TabIndex = 17;
-            this.score1_label.Text = "Poäng 1";
-            // 
             // Player_label
             // 
             this.Player_label.AutoSize = true;

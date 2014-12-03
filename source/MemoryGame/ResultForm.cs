@@ -39,9 +39,17 @@ namespace MemoryGame
                 //playerLabel.Size = new System.Drawing.Size(80, 20);
                 playerLabel.Location = new System.Drawing.Point(36, y);
                 playerLabel.Text = game.Players[i].Name;
-                y += yOffset;
-                this.Controls.Add(playerLabel);
                 
+                this.Controls.Add(playerLabel);
+
+                var scoreLabel = new Label();
+                scoreLabel.Location = new System.Drawing.Point(328, y);
+                scoreLabel.Text = game.Players[i].Score.ToString();
+
+                this.Controls.Add(scoreLabel);
+
+                y += yOffset;
+
             }
         }
 
