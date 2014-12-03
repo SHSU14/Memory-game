@@ -38,7 +38,6 @@ namespace MemoryGame
                 playerLabel.AutoSize = true;
                 playerLabel.Location = new System.Drawing.Point(36, y);
                 playerLabel.Text = game.Players[i].Name;
-                y += yOffset;
                 this.Controls.Add(playerLabel);
 
                 var scoreLabel = new Label();
