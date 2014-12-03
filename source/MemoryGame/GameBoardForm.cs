@@ -51,6 +51,27 @@ namespace MemoryGame
             
 
             this.Size = new Size(columns * xOffset + 50, (total + columns - 1) / columns * yOffset + 70);
+
+            //placing the labels for players
+            int a = 50; // y value
+            int b = xOffset * columns + 40; // x value
+
+
+            for (int i = 0; i < settings.Players; i++)
+            {
+                a += 25;
+                var control = new Label();
+                control.Location = new System.Drawing.Point(b, a); // b is x, a is y
+                control.Text = "Player" + i.ToString();
+                control.AutoSize = true;
+                control.Size = new Size(50, 20);
+
+
+                this.Controls.Add(control);
+
+
+            }
+
             Shuffle();
 
 
