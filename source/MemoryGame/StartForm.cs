@@ -62,9 +62,60 @@ namespace MemoryGame
            
 
             var value6 = this.nud_ShowCardTimer.Value.ToString();
-            settings.ShowCardTimer  = int.Parse(value6);
+            settings.ShowCardTimer = int.Parse(value6);
           
         }
 
+        private void cmb_spelare_Validated(object sender, EventArgs e)
+        {
+            var AIplayer = this.cmb_AI.Text;
+            var player = this.cmb_spelare.Text;
+
+            if (int.Parse(player) > 10)
+            {
+                MessageBox.Show("Du har valt för många spelare!");
+            }
+        }
+        private void cmb_AI_Validated(object sender, EventArgs e)
+        {
+            var AIplayer = this.cmb_AI.Text;
+            var player = this.cmb_spelare.Text;
+
+            if (int.Parse(AIplayer) > 10)
+            {
+                MessageBox.Show("Du har valt för många AIspelare!");
+            }
+        }
+        private void cmb_AI_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            StartForm frm = new StartForm();
+            var player = this.cmb_AI.Text;
+            if (int.Parse(player) == 10)
+            {
+                cmb_spelare.Hide();
+                frm.Refresh();
+            }
+            if (int.Parse(player) <= 9)
+            {
+                cmb_spelare.Show();
+                frm.Refresh();
+            }
+        }
+
+        private void cmb_spelare_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            StartForm frm = new StartForm();
+            var player = this.cmb_spelare.Text;
+            if (int.Parse(player) == 10)
+            {
+                cmb_AI.Hide();
+                frm.Refresh();
+            }
+            if (int.Parse(player) <= 9)
+            {
+                cmb_AI.Show();
+                frm.Refresh();
+            }
+        }           
     }
 }

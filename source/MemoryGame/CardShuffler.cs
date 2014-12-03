@@ -12,7 +12,7 @@ namespace MemoryGame
 
         public CardShuffler(Settings settings) 
         {
-            this.settings = new Settings();
+            this.settings = settings;
         }
 
        //genererar en lista med MemoryCards baserat på settings
