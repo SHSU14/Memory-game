@@ -11,7 +11,7 @@ namespace MemoryGame
         public Player[] Players { get; set; }
         public Player Winner { get; set; }
         private int currentIndex = 0;
-        private bool nextPlayerFlag = true;
+        private bool ignore = false;
   
         public Player CurrentPlayer { get; set; }
         public int Score { get; set; }
@@ -19,25 +19,25 @@ namespace MemoryGame
         {
             this.Players = new Player[settings.Players];
             for (int i = 0; i < settings.Players; i++)
-                Players[i] = new Player("Player" + i.ToString());
+                Players[i] = new Player("Spelare " + (i+1).ToString());
             CurrentPlayer = Players[0];
             Score = 0;
         }
 
         public void NextPlayer()
         {
-            if (!nextPlayerFlag)
+            if (ignore)
                 return;
             currentIndex = (currentIndex + 1)% Players.Length;
             CurrentPlayer = Players[currentIndex];
         }
 
-        public void FlagNextPlayer()
+        public void Ignore()
         {
-            nextPlayerFlag = !nextPlayerFlag;     
+            ignore = !ignore;     
         }
 
-        public void GetWinner()
+        public void SetWinner()
         {
             int score = 0;
             string name = "";
@@ -52,7 +52,6 @@ namespace MemoryGame
                     winner = player;
                 }
             }
-            //System.Windows.Forms.MessageBox.Show(name + " har vunnit med " + score.ToString() + " poäng!");
             this.Winner = winner;
         }
     }

@@ -122,7 +122,7 @@ namespace MemoryGame
             if (Game.Score == this.startForm.settings.CardNumber / 2)
             {
                 System.Threading.Thread.Sleep(1000);
-                Game.GetWinner();
+                Game.SetWinner();
                 ResultForm frm = new ResultForm(this);
                 frm.Show();
                 this.Close();

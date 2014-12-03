@@ -45,7 +45,7 @@ namespace MemoryGame
             if (!IsMatched() && open)
             {
                 Close();
-                game.FlagNextPlayer();
+                game.Ignore();
                 gameBoardForm.NextPlayer();
             }
 
