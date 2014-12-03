@@ -33,8 +33,8 @@ namespace MemoryGame
             int total = settings.CardNumber;
             int columns = (int)Math.Ceiling(Math.Sqrt(total));
 
-            int xOffset = 65;
-            int yOffset = 65;
+            int xOffset = 85;
+            int yOffset = 85;
 
             for (int i = 0; i < total; i++)
             {
@@ -45,12 +45,22 @@ namespace MemoryGame
                 thinkTimer.Tick += new EventHandler(control.HandleThinkTimer);
                 cardTimer.Tick += new EventHandler(control.HandleCardtimer);
                 control.Location = new System.Drawing.Point(x, y);
-                this.Controls.Add(control);
+                this.Controls.Add(control); 
             }
-
+            var px = xOffset*columns + 30;
+            var py = 40;
+            for (int i = 0; i < settings.Players; i++)
+            {
+                
+                var playerlabel = new Label();
+                playerlabel.Text = "Spelare" + (i+1).ToString();
+                playerlabel.Location = new System.Drawing.Point(px,py);
+                this.Controls.Add(playerlabel);
+                py += 22;
+            }
             
 
-            this.Size = new Size(columns * xOffset + 50, (total + columns - 1) / columns * yOffset + 70);
+            this.Size = new Size(columns * xOffset + 130, (total + columns - 1) / columns * yOffset + 90);
             Shuffle();
 
 

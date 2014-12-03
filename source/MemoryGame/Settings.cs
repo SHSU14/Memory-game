@@ -18,7 +18,7 @@ namespace MemoryGame
 
         public Settings()
         {
-            Players = 2;
+            Players = 12;
             AIPlayers = 0;
             CardNumber = 12;
             Themes = "frukt";
