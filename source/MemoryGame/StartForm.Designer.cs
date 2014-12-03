@@ -110,7 +110,6 @@
             0,
             0,
             0});
-            this.AntalKort.ValueChanged += new System.EventHandler(this.AntalKort_ValueChanged);
             // 
             // cmb_spelare
             // 

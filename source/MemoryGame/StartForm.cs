@@ -35,8 +35,6 @@ namespace MemoryGame
            return MessageBox.Show("Vill du verkligen avsluta?", string.Empty, MessageBoxButtons.YesNo, MessageBoxIcon.Question);   
         }
 
-<<<<<<< HEAD
-=======
         public void getSettings()
         {
             var value = this.cmb_spelare.SelectedItem.ToString();
@@ -67,7 +65,6 @@ namespace MemoryGame
             settings.ShowCardTimer  = int.Parse(value6);
           
         }
->>>>>>> origin/master
 
     }
 }

@@ -139,8 +139,6 @@ namespace MemoryGame.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-<<<<<<< HEAD
-=======
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -751,6 +749,5 @@ namespace MemoryGame.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
->>>>>>> origin/master
     }
 }

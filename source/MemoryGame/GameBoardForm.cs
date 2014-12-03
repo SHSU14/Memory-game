@@ -21,25 +21,26 @@ namespace MemoryGame
             this.startForm = startForm;
             var settings = startForm.settings;
             this.Game = new Game(settings);
-            this.Text = Game.CurrentPlayer.Name; 
-            
+            this.Text = Game.CurrentPlayer.Name;
+
             InitializeComponent();
 
-            
+
             thinkTimer.Interval = settings.PlayersTurnTimer*1000;
-            cardTimer.Interval = settings.ShowCardTimer*1000; 
+            cardTimer.Interval = settings.ShowCardTimer*1000;
 
 
             int total = settings.CardNumber;
-            int columns = (int)Math.Ceiling(Math.Sqrt(total));
+            int columns = (int) Math.Ceiling(Math.Sqrt(total));
 
-            int xOffset = 65;
-            int yOffset = 65;
+
+            int xOffset = 85; 
+            int yOffset = 85;
 
             for (int i = 0; i < total; i++)
             {
-                var y = yOffset * (i / columns) + 20;
-                var x = xOffset * (i % columns) + 20;
+                var y = yOffset*(i/columns) + 20;
+                var x = xOffset*(i%columns) + 20;
                 var control = new MemoryCardControl(this);
 
                 thinkTimer.Tick += new EventHandler(control.HandleThinkTimer);
@@ -48,32 +49,22 @@ namespace MemoryGame
                 this.Controls.Add(control);
             }
 
-            
 
-            this.Size = new Size(columns * xOffset + 50, (total + columns - 1) / columns * yOffset + 70);
-
-            //placing the labels for players
-            int a = 50; // y value
-            int b = xOffset * columns + 40; // x value
-
-
+            var px = xOffset*columns + 30;
+            var py = 40;
             for (int i = 0; i < settings.Players; i++)
             {
-                a += 25;
-                var control = new Label();
-                control.Location = new System.Drawing.Point(b, a); // b is x, a is y
-                control.Text = "Player" + i.ToString();
-                control.AutoSize = true;
-                control.Size = new Size(50, 20);
 
-
-                this.Controls.Add(control);
-
-
+                var playerlabel = new Label();
+                playerlabel.Text = "Spelare" + (i + 1).ToString();
+                playerlabel.Location = new System.Drawing.Point(px, py);
+                this.Controls.Add(playerlabel);
+                py += 22;
             }
 
-            Shuffle();
+            this.Size = new Size(columns*xOffset + 130, (total + columns - 1)/columns*yOffset + 90);
 
+            Shuffle();
 
         }
 
