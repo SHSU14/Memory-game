@@ -36,7 +36,6 @@ namespace MemoryGame
             {
                 var playerLabel = new Label();
                 playerLabel.AutoSize = true;
-                //playerLabel.Size = new System.Drawing.Size(80, 20);
                 playerLabel.Location = new System.Drawing.Point(36, y);
                 playerLabel.Text = game.Players[i].Name;
                 
