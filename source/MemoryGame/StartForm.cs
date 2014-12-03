@@ -116,6 +116,15 @@ namespace MemoryGame
                 cmb_AI.Show();
                 frm.Refresh();
             }
+        }
+
+        private void num_Cardnumber_ValueChanged(object sender, EventArgs e)
+        {
+            var crdNr = this.num_Cardnumber.Value;
+            if (crdNr % 2 != 0 || crdNr > 120)
+            {
+                MessageBox.Show("Du måste välja ett jämt antal kort mellan 12 - 120");
+            }           
         }           
     }
 }

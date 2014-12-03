@@ -120,6 +120,7 @@
             0,
             0,
             0});
+            this.num_Cardnumber.ValueChanged += new System.EventHandler(this.num_Cardnumber_ValueChanged);
             // 
             // cmb_spelare
             // 
