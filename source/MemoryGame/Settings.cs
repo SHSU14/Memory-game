@@ -20,8 +20,15 @@ namespace MemoryGame
         {
             Players = 2;
             AIPlayers = 0;
+<<<<<<< HEAD
             this.CardNumber = 12;
             Themes = "bild";
+=======
+            CardNumber = 12;
+            Themes = "frukt";
+            PlayersTurnTimer = 4;
+            ShowCardTimer = 2;
+>>>>>>> origin/master
         }
     }
 }

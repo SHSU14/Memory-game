@@ -64,7 +64,7 @@ namespace MemoryGame
            
 
             var value6 = this.nud_ShowCardTimer.Value.ToString();
-            settings.CardNumber = int.Parse(value6);
+            settings.ShowCardTimer  = int.Parse(value6);
           
         }
 >>>>>>> origin/master

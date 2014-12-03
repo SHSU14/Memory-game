@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,12 +14,37 @@ namespace MemoryGame
     public partial class ResultForm : Form
     {
         private StartForm startForm;
+        private Game game;
 
-        public ResultForm(StartForm startForm)
+        public ResultForm(GameBoardForm board)
         {
-            this.startForm = startForm;
+            this.startForm = board.startForm;
+            this.game = board.Game;
             InitializeComponent();
+            this.winner_label.Text = game.Winner.Name + " har vunnit!"; 
+            GenerateLables();
+ 
+
         }
+
+        private void GenerateLables()
+        {
+
+            int y = 100;
+            int yOffset = 30;
+            for (int i = 0; i < game.Players.Length; i++)
+            {
+                var playerLabel = new Label();
+                playerLabel.AutoSize = true;
+                //playerLabel.Size = new System.Drawing.Size(80, 20);
+                playerLabel.Location = new System.Drawing.Point(36, y);
+                playerLabel.Text = game.Players[i].Name;
+                y += yOffset;
+                this.Controls.Add(playerLabel);
+                
+            }
+        }
+
 
         // Spela igen knappen
         private void button1_Click(object sender, EventArgs e)
