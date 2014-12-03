@@ -74,6 +74,11 @@
             this.nud_ShowCardTimer.Name = "nud_ShowCardTimer";
             this.nud_ShowCardTimer.Size = new System.Drawing.Size(71, 20);
             this.nud_ShowCardTimer.TabIndex = 20;
+            this.nud_ShowCardTimer.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // nud_PlayerTurnTimer
             // 
@@ -82,6 +87,11 @@
             this.nud_PlayerTurnTimer.Name = "nud_PlayerTurnTimer";
             this.nud_PlayerTurnTimer.Size = new System.Drawing.Size(71, 20);
             this.nud_PlayerTurnTimer.TabIndex = 19;
+            this.nud_PlayerTurnTimer.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // num_Cardnumber
             // 
@@ -133,6 +143,8 @@
             this.cmb_spelare.Size = new System.Drawing.Size(102, 21);
             this.cmb_spelare.TabIndex = 17;
             this.cmb_spelare.Text = "2";
+            this.cmb_spelare.SelectedIndexChanged += new System.EventHandler(this.cmb_spelare_SelectedIndexChanged);
+            this.cmb_spelare.Validated += new System.EventHandler(this.cmb_spelare_Validated);
             // 
             // cmb_AI
             // 
@@ -156,6 +168,8 @@
             this.cmb_AI.Size = new System.Drawing.Size(102, 21);
             this.cmb_AI.TabIndex = 16;
             this.cmb_AI.Text = "0";
+            this.cmb_AI.SelectedIndexChanged += new System.EventHandler(this.cmb_AI_SelectedIndexChanged);
+            this.cmb_AI.Validated += new System.EventHandler(this.cmb_AI_Validated);
             // 
             // label3
             // 
@@ -225,14 +239,14 @@
             // 
             this.cmb_Themes.FormattingEnabled = true;
             this.cmb_Themes.Items.AddRange(new object[] {
-            "Tema1",
+            "Frukt",
             "Tema2",
             "Tema3"});
             this.cmb_Themes.Location = new System.Drawing.Point(236, 192);
             this.cmb_Themes.Name = "cmb_Themes";
             this.cmb_Themes.Size = new System.Drawing.Size(121, 21);
             this.cmb_Themes.TabIndex = 32;
-            this.cmb_Themes.Text = "Tema";
+            this.cmb_Themes.Text = "Frukt";
             // 
             // StartForm
             // 
