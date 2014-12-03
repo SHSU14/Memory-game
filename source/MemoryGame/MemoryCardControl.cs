@@ -81,7 +81,10 @@ namespace MemoryGame
             Data.Counter++;
 
             if (Data.Counter == 2)
+            {
+                this.Refresh();
                 gameBoardForm.AddScore();
+            }
 
             open = true;
         }

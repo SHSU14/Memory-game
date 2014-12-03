@@ -9,6 +9,7 @@ namespace MemoryGame
     public class Game
     {
         public Player[] Players { get; set; }
+        public Player Winner { get; set; }
         private int currentIndex = 0;
         private bool nextPlayerFlag = true;
   
@@ -36,21 +37,23 @@ namespace MemoryGame
             nextPlayerFlag = !nextPlayerFlag;     
         }
 
-        public void Winner()
+        public void GetWinner()
         {
             int score = 0;
             string name = "";
+            Player winner = Players[0];
 
             foreach (Player player in Players)
             {
                 if (player.Score > score)
                 {
                     score = player.Score;
-                    name = player.Name; 
+                    name = player.Name;
+                    winner = player;
                 }
             }
-            System.Windows.Forms.MessageBox.Show(name + " har vunnit med " + score.ToString() + " poäng!");
-
+            //System.Windows.Forms.MessageBox.Show(name + " har vunnit med " + score.ToString() + " poäng!");
+            this.Winner = winner;
         }
     }
 }

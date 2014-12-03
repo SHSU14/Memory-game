@@ -12,7 +12,7 @@ namespace MemoryGame
 {
     public partial class GameBoardForm : Form
     {
-        StartForm startForm;
+        public StartForm startForm;
         public Timer thinkTimer = new Timer();
         public Timer cardTimer = new Timer();
 
@@ -67,7 +67,7 @@ namespace MemoryGame
 
         private void btnDone_Click(object sender, EventArgs e)
         {
-            ResultForm frm = new ResultForm(this.startForm);
+            ResultForm frm = new ResultForm(this);
             frm.Show();
             this.Close();
         }
@@ -109,7 +109,11 @@ namespace MemoryGame
 
             if (Game.Score == this.startForm.settings.CardNumber / 2)
             {
-                Game.Winner();
+                System.Threading.Thread.Sleep(1000);
+                Game.GetWinner();
+                ResultForm frm = new ResultForm(this);
+                frm.Show();
+                this.Close();
             }
             
         }
