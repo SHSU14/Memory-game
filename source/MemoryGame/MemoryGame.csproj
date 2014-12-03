@@ -318,6 +318,369 @@
   <ItemGroup>
     <None Include="Resources\frukt59.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vägmärken59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djur59.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
