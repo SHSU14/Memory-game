@@ -54,15 +54,18 @@ namespace MemoryGame
             var py = 40;
             for (int i = 0; i < settings.Players; i++)
             {
-
+                var player = Game.Players[i];
                 var playerlabel = new Label();
-                playerlabel.Text = "Spelare" + (i + 1).ToString();
+                playerlabel.Text = player.Name + " :  " + player.Score.ToString();
                 playerlabel.Location = new System.Drawing.Point(px, py);
+                playerlabel.Name = player.Name;
+                playerlabel.ForeColor = player.Color;
                 this.Controls.Add(playerlabel);
+
                 py += 22;
             }
 
-            this.Size = new Size(columns*xOffset + 130, (total + columns - 1)/columns*yOffset + 90);
+            this.Size = new Size(columns*xOffset + 150, (total + columns - 1)/columns*yOffset + 90);
 
             Shuffle();
 
@@ -119,9 +122,12 @@ namespace MemoryGame
             Game.CurrentPlayer.Score += 1;
             Game.Score += 1;
 
+
+            var playerLabel = (Label)this.Controls.Find(Game.CurrentPlayer.Name, false).First();
+            playerLabel.Text = Game.CurrentPlayer.Name + " :  " + Game.CurrentPlayer.Score.ToString();
             if (Game.Score == this.startForm.settings.CardNumber / 2)
             {
-                System.Threading.Thread.Sleep(1000);
+                System.Threading.Thread.Sleep(800);
                 Game.SetWinner();
                 ResultForm frm = new ResultForm(this);
                 frm.Show();

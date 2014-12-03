@@ -16,5 +16,7 @@ namespace MemoryGame
        }
        public string Name { get; set; }
        public int Score { get; set; }
+
+       public System.Drawing.Color Color { get; set; }
     }
 }

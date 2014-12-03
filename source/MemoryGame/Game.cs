@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace MemoryGame
 {
@@ -12,6 +13,7 @@ namespace MemoryGame
         public Player Winner { get; set; }
         private int currentIndex = 0;
         private bool ignore = false;
+        public Color[] Colors = { Color.ForestGreen, Color.LimeGreen, Color.YellowGreen, Color.Orange, Color.Red, Color.DeepPink, Color.Violet, Color.Turquoise, Color.DeepSkyBlue, Color.Blue };
   
         public Player CurrentPlayer { get; set; }
         public int Score { get; set; }
@@ -19,7 +21,12 @@ namespace MemoryGame
         {
             this.Players = new Player[settings.Players];
             for (int i = 0; i < settings.Players; i++)
-                Players[i] = new Player("Spelare " + (i+1).ToString());
+            {
+                var player = new Player("Spelare " + (i + 1).ToString());
+                player.Color = Colors[i];
+                Players[i] = player;
+
+            }
             CurrentPlayer = Players[0];
             Score = 0;
         }

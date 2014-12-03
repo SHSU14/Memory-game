@@ -21,7 +21,8 @@ namespace MemoryGame
             this.startForm = board.startForm;
             this.game = board.Game;
             InitializeComponent();
-            this.winner_label.Text = game.Winner.Name + " har vunnit!"; 
+            this.winner_label.Text = game.Winner.Name + " har vunnit!";
+            this.winner_label.ForeColor = game.Winner.Color;
             GenerateLables();
  
 
@@ -34,15 +35,18 @@ namespace MemoryGame
             int yOffset = 30;
             for (int i = 0; i < game.Players.Length; i++)
             {
+                var player = game.Players[i];
                 var playerLabel = new Label();
                 playerLabel.AutoSize = true;
                 playerLabel.Location = new System.Drawing.Point(36, y);
-                playerLabel.Text = game.Players[i].Name;
+                playerLabel.Text = player.Name;
+                playerLabel.ForeColor = player.Color;
                 this.Controls.Add(playerLabel);
 
                 var scoreLabel = new Label();
                 scoreLabel.Location = new System.Drawing.Point(328, y);
-                scoreLabel.Text = game.Players[i].Score.ToString();
+                scoreLabel.Text = player.Score.ToString();
+                scoreLabel.ForeColor = player.Color;
 
                 this.Controls.Add(scoreLabel);
 

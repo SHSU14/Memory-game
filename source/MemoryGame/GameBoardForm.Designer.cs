@@ -36,12 +36,12 @@ namespace MemoryGame
             this.nyttToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.startaOmSpeletToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.avslutaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnDone = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -81,24 +81,13 @@ namespace MemoryGame
             this.avslutaToolStripMenuItem.Text = "&Avsluta";
             this.avslutaToolStripMenuItem.Click += new System.EventHandler(this.avslutaToolStripMenuItem_Click);
             // 
-            // btnDone
-            // 
-            this.btnDone.Location = new System.Drawing.Point(569, 422);
-            this.btnDone.Margin = new System.Windows.Forms.Padding(2);
-            this.btnDone.Name = "btnDone";
-            this.btnDone.Size = new System.Drawing.Size(68, 21);
-            this.btnDone.TabIndex = 25;
-            this.btnDone.Text = "Klar";
-            this.btnDone.UseVisualStyleBackColor = true;
-            this.btnDone.Click += new System.EventHandler(this.btnDone_Click);
-            // 
             // GameBoardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(660, 460);
             this.ControlBox = false;
-            this.Controls.Add(this.btnDone);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GameBoardForm";
@@ -118,6 +107,5 @@ namespace MemoryGame
         private System.Windows.Forms.ToolStripMenuItem nyttToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem startaOmSpeletToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem avslutaToolStripMenuItem;
-        private System.Windows.Forms.Button btnDone;
     }
 }
