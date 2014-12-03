@@ -241,8 +241,8 @@
             this.cmb_Themes.FormattingEnabled = true;
             this.cmb_Themes.Items.AddRange(new object[] {
             "Frukt",
-            "Tema2",
-            "Tema3"});
+            "Vägmärken",
+            "Djur"});
             this.cmb_Themes.Location = new System.Drawing.Point(236, 192);
             this.cmb_Themes.Name = "cmb_Themes";
             this.cmb_Themes.Size = new System.Drawing.Size(121, 21);

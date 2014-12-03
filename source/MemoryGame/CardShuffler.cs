@@ -21,8 +21,8 @@ namespace MemoryGame
             var cardList = new List<MemoryCard>(noCards);
             for (int i = 0; i < noCards; i++)
             {
-                var backSide = settings.Themes + "BackSide";
-                var symbol = settings.Themes + i.ToString();
+                var backSide = settings.Themes.ToLower()  + "BackSide";
+                var symbol = settings.Themes.ToLower() + i.ToString();
                 cardList.Add(new MemoryCard(backSide, symbol));
             }
             return cardList;

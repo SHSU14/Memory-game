@@ -75,7 +75,7 @@ namespace MemoryGame
         {
             var mcList = new System.Collections.Generic.List<MemoryCardControl>();
             mcList = this.Controls.OfType<MemoryCardControl>().ToList();
-            CardShuffler shuffler = new CardShuffler(new Settings());
+            CardShuffler shuffler = new CardShuffler(startForm.settings);
             shuffler.Shuffle(mcList);
         }
 
