@@ -42,6 +42,12 @@ namespace MemoryGame
                 this.Controls.Add(playerLabel);
 
                 var scoreLabel = new Label();
+                scoreLabel.Location = new System.Drawing.Point(328, y);
+                scoreLabel.Text = game.Players[i].Score.ToString();
+
+                this.Controls.Add(scoreLabel);
+
+                y += yOffset;
 
             }
         }
