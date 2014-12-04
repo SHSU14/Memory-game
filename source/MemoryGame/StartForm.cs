@@ -18,6 +18,8 @@ namespace MemoryGame
         public StartForm()
         {
             InitializeComponent();
+            this.cmb_Themes.SelectedIndex = 0;
+            this.cmb_Level.SelectedIndex = 0;
         }
 
         // Öppna spelplanen(GameBoardForm)
