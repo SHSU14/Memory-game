@@ -694,4 +694,13 @@
   <data name="vägmärkenBackSide" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vägmärkenBackSide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="djurBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djurBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fruktBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fruktBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärkenBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärkenBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
