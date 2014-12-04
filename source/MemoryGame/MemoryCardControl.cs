@@ -32,7 +32,7 @@ namespace MemoryGame
             this.cardTimer = form.cardTimer;
             this.game = form.Game;
             this.Data = new MemoryCard();
-            this.Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(Data.BackSide);
+            //
             this.Size = new System.Drawing.Size(80, 80);
             this.SizeMode = PictureBoxSizeMode.StretchImage;
         }

@@ -20,6 +20,7 @@ namespace MemoryGame
             InitializeComponent();
             this.cmb_Themes.SelectedIndex = 0;
             this.cmb_Level.SelectedIndex = 0;
+            this.cmb_spelare.SelectedIndex = 2;
         }
 
         // Öppna spelplanen(GameBoardForm)
@@ -41,10 +42,13 @@ namespace MemoryGame
         {
             var value = this.cmb_spelare.SelectedItem.ToString();
             settings.Players = int.Parse(value);
-           
 
-            var value1 = this.cmb_AI.SelectedItem.ToString();
-            settings.AIPlayers = int.Parse(value1);
+
+            if (this.cmb_AI.SelectedItem != null)
+            {
+                var value1 = this.cmb_AI.SelectedItem.ToString();
+                settings.AIPlayers = int.Parse(value1);
+            }
 
 
             var value2 = this.cmb_Level.Text;
@@ -106,18 +110,8 @@ namespace MemoryGame
 
         private void cmb_spelare_SelectedIndexChanged(object sender, EventArgs e)
         {
-            StartForm frm = new StartForm();
-            var player = this.cmb_spelare.Text;
-            if (int.Parse(player) == 10)
-            {
-                cmb_AI.Hide();
-                frm.Refresh();
-            }
-            if (int.Parse(player) <= 9)
-            {
-                cmb_AI.Show();
-                frm.Refresh();
-            }
+         
+       
         }
 
         private void num_Cardnumber_ValueChanged(object sender, EventArgs e)

@@ -124,6 +124,7 @@
             // 
             // cmb_spelare
             // 
+            this.cmb_spelare.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_spelare.FormattingEnabled = true;
             this.cmb_spelare.ItemHeight = 17;
             this.cmb_spelare.Items.AddRange(new object[] {
@@ -143,12 +144,12 @@
             this.cmb_spelare.Name = "cmb_spelare";
             this.cmb_spelare.Size = new System.Drawing.Size(49, 25);
             this.cmb_spelare.TabIndex = 17;
-            this.cmb_spelare.Text = "2";
             this.cmb_spelare.SelectedIndexChanged += new System.EventHandler(this.cmb_spelare_SelectedIndexChanged);
             this.cmb_spelare.Validated += new System.EventHandler(this.cmb_spelare_Validated);
             // 
             // cmb_AI
             // 
+            this.cmb_AI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_AI.Enabled = false;
             this.cmb_AI.FormattingEnabled = true;
             this.cmb_AI.ItemHeight = 17;
@@ -169,7 +170,6 @@
             this.cmb_AI.Name = "cmb_AI";
             this.cmb_AI.Size = new System.Drawing.Size(49, 25);
             this.cmb_AI.TabIndex = 16;
-            this.cmb_AI.Text = "0";
             this.cmb_AI.SelectedIndexChanged += new System.EventHandler(this.cmb_AI_SelectedIndexChanged);
             this.cmb_AI.Validated += new System.EventHandler(this.cmb_AI_Validated);
             // 

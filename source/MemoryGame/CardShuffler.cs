@@ -40,6 +40,7 @@ namespace MemoryGame
                 int index = rnd.Next(cardList.Count);
                 MemoryCard card = cardList[index];
                 controlList[i].Data = card;
+                controlList[i].Image = (System.Drawing.Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(card.BackSide);
                 card.Counter -= 1;
                 if (card.Counter == 0)
                     cardList.RemoveAt(index); 

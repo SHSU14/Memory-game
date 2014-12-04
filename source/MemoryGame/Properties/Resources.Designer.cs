@@ -753,16 +753,6 @@ namespace MemoryGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap frukBackSide {
-            get {
-                object obj = ResourceManager.GetObject("frukBackSide", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap frukt0 {
             get {
                 object obj = ResourceManager.GetObject("frukt0", resourceCulture);
@@ -1356,6 +1346,16 @@ namespace MemoryGame.Properties {
         internal static System.Drawing.Bitmap frukt9 {
             get {
                 object obj = ResourceManager.GetObject("frukt9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fruktBackSide {
+            get {
+                object obj = ResourceManager.GetObject("fruktBackSide", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
