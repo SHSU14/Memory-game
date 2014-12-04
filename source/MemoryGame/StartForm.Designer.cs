@@ -53,7 +53,7 @@
             this.label5.Location = new System.Drawing.Point(79, 238);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 13);
+            this.label5.Size = new System.Drawing.Size(116, 17);
             this.label5.TabIndex = 22;
             this.label5.Text = "Visningstid (sec):";
             // 
@@ -63,16 +63,16 @@
             this.label4.Location = new System.Drawing.Point(79, 213);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 13);
+            this.label4.Size = new System.Drawing.Size(115, 17);
             this.label4.TabIndex = 21;
             this.label4.Text = "Betänketid (sec):";
             // 
             // nud_ShowCardTimer
             // 
-            this.nud_ShowCardTimer.Location = new System.Drawing.Point(188, 234);
+            this.nud_ShowCardTimer.Location = new System.Drawing.Point(195, 234);
             this.nud_ShowCardTimer.Margin = new System.Windows.Forms.Padding(2);
             this.nud_ShowCardTimer.Name = "nud_ShowCardTimer";
-            this.nud_ShowCardTimer.Size = new System.Drawing.Size(71, 20);
+            this.nud_ShowCardTimer.Size = new System.Drawing.Size(53, 23);
             this.nud_ShowCardTimer.TabIndex = 20;
             this.nud_ShowCardTimer.Value = new decimal(new int[] {
             1,
@@ -82,10 +82,10 @@
             // 
             // nud_PlayerTurnTimer
             // 
-            this.nud_PlayerTurnTimer.Location = new System.Drawing.Point(188, 209);
+            this.nud_PlayerTurnTimer.Location = new System.Drawing.Point(195, 209);
             this.nud_PlayerTurnTimer.Margin = new System.Windows.Forms.Padding(2);
             this.nud_PlayerTurnTimer.Name = "nud_PlayerTurnTimer";
-            this.nud_PlayerTurnTimer.Size = new System.Drawing.Size(71, 20);
+            this.nud_PlayerTurnTimer.Size = new System.Drawing.Size(53, 23);
             this.nud_PlayerTurnTimer.TabIndex = 19;
             this.nud_PlayerTurnTimer.Value = new decimal(new int[] {
             1,
@@ -113,7 +113,7 @@
             0,
             0});
             this.num_Cardnumber.Name = "num_Cardnumber";
-            this.num_Cardnumber.Size = new System.Drawing.Size(49, 20);
+            this.num_Cardnumber.Size = new System.Drawing.Size(49, 23);
             this.num_Cardnumber.TabIndex = 18;
             this.num_Cardnumber.Value = new decimal(new int[] {
             12,
@@ -125,7 +125,7 @@
             // cmb_spelare
             // 
             this.cmb_spelare.FormattingEnabled = true;
-            this.cmb_spelare.ItemHeight = 13;
+            this.cmb_spelare.ItemHeight = 17;
             this.cmb_spelare.Items.AddRange(new object[] {
             "0",
             "1",
@@ -141,7 +141,7 @@
             this.cmb_spelare.Location = new System.Drawing.Point(159, 34);
             this.cmb_spelare.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_spelare.Name = "cmb_spelare";
-            this.cmb_spelare.Size = new System.Drawing.Size(49, 21);
+            this.cmb_spelare.Size = new System.Drawing.Size(49, 25);
             this.cmb_spelare.TabIndex = 17;
             this.cmb_spelare.Text = "2";
             this.cmb_spelare.SelectedIndexChanged += new System.EventHandler(this.cmb_spelare_SelectedIndexChanged);
@@ -149,8 +149,9 @@
             // 
             // cmb_AI
             // 
+            this.cmb_AI.Enabled = false;
             this.cmb_AI.FormattingEnabled = true;
-            this.cmb_AI.ItemHeight = 13;
+            this.cmb_AI.ItemHeight = 17;
             this.cmb_AI.Items.AddRange(new object[] {
             "0",
             "1",
@@ -166,7 +167,7 @@
             this.cmb_AI.Location = new System.Drawing.Point(159, 76);
             this.cmb_AI.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_AI.Name = "cmb_AI";
-            this.cmb_AI.Size = new System.Drawing.Size(49, 21);
+            this.cmb_AI.Size = new System.Drawing.Size(49, 25);
             this.cmb_AI.TabIndex = 16;
             this.cmb_AI.Text = "0";
             this.cmb_AI.SelectedIndexChanged += new System.EventHandler(this.cmb_AI_SelectedIndexChanged);
@@ -178,7 +179,7 @@
             this.label3.Location = new System.Drawing.Point(79, 144);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
+            this.label3.Size = new System.Drawing.Size(74, 17);
             this.label3.TabIndex = 15;
             this.label3.Text = "Antal Kort:";
             // 
@@ -188,7 +189,7 @@
             this.label2.Location = new System.Drawing.Point(79, 76);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 13);
+            this.label2.Size = new System.Drawing.Size(77, 17);
             this.label2.TabIndex = 14;
             this.label2.Text = "AI Spelare:";
             // 
@@ -198,7 +199,7 @@
             this.label1.Location = new System.Drawing.Point(79, 38);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.Size = new System.Drawing.Size(61, 17);
             this.label1.TabIndex = 13;
             this.label1.Text = "Spelare:";
             // 
@@ -219,23 +220,23 @@
             this.Tema.Location = new System.Drawing.Point(79, 180);
             this.Tema.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Tema.Name = "Tema";
-            this.Tema.Size = new System.Drawing.Size(37, 13);
+            this.Tema.Size = new System.Drawing.Size(48, 17);
             this.Tema.TabIndex = 30;
             this.Tema.Text = "Tema:";
             // 
             // cmb_Level
             // 
             this.cmb_Level.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb_Level.Enabled = false;
             this.cmb_Level.FormattingEnabled = true;
             this.cmb_Level.Items.AddRange(new object[] {
             "Lätt",
             "Medel ",
             "Svår"});
-            this.cmb_Level.SelectedIndex = 0;
-            this.cmb_Level.Location = new System.Drawing.Point(159, 96);
+            this.cmb_Level.Location = new System.Drawing.Point(159, 105);
             this.cmb_Level.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.cmb_Level.Name = "cmb_Level";
-            this.cmb_Level.Size = new System.Drawing.Size(104, 21);
+            this.cmb_Level.Size = new System.Drawing.Size(89, 25);
             this.cmb_Level.TabIndex = 31;
             // 
             // cmb_Themes
@@ -246,16 +247,15 @@
             "Frukt",
             "Vägmärken",
             "Djur"});
-            this.cmb_Themes.SelectedIndex = 0;
             this.cmb_Themes.Location = new System.Drawing.Point(159, 176);
             this.cmb_Themes.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.cmb_Themes.Name = "cmb_Themes";
-            this.cmb_Themes.Size = new System.Drawing.Size(104, 21);
+            this.cmb_Themes.Size = new System.Drawing.Size(89, 25);
             this.cmb_Themes.TabIndex = 32;
             // 
             // StartForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(370, 361);
             this.Controls.Add(this.cmb_Themes);
