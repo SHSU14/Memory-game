@@ -57,7 +57,7 @@ namespace MemoryGame
             if ( !IsMatched() && open)
             {
                 Close();
-                MessageBox.Show("Tiden är ute!");
+                MessageBox.Show("Betänketiden är slut!");
                 thinkTimer.Stop();
                 gameBoardForm.NextPlayer();
 

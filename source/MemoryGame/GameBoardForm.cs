@@ -39,7 +39,7 @@ namespace MemoryGame
 
             for (int i = 0; i < total; i++)
             {
-                var y = yOffset*(i/columns) + 20;
+                var y = yOffset*(i/columns) + 30;
                 var x = xOffset*(i%columns) + 20;
                 var control = new MemoryCardControl(this);
 
