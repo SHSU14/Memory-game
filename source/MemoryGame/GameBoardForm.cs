@@ -16,6 +16,8 @@ namespace MemoryGame
         public Timer thinkTimer = new Timer();
         public Timer cardTimer = new Timer();
         public List<MemoryCardControl> closedCardList;
+        public List<MemoryCardControl> memoryList;
+        public int memoryCapacity = 0;
 
         public GameBoardForm(StartForm startForm)
         {
@@ -51,6 +53,13 @@ namespace MemoryGame
             }
             closedCardList = this.Controls.OfType<MemoryCardControl>().ToList();
 
+            memoryList = new List<MemoryCardControl>();
+            if (settings.AILevels == "Medel")
+                this.memoryCapacity = 5;
+            else if (settings.AILevels == "Svår")
+                this.memoryCapacity = 50;
+
+
             var px = xOffset*columns + 30;
             var py = 40;
     
@@ -65,6 +74,11 @@ namespace MemoryGame
                 this.Controls.Add(playerlabel);
 
                 py += 22;
+            }
+
+            foreach (AIPlayer player in settings.Playerlist.OfType<AIPlayer>())
+            {
+                player.mcList = this.memoryList; 
             }
 
             this.Size = new Size(columns*xOffset + 150, (total + columns - 1)/columns*yOffset + 90);
@@ -115,11 +129,7 @@ namespace MemoryGame
         {
             if (Game.Score == this.startForm.settings.CardNumber / 2)
             {
-                //System.Threading.Thread.Sleep(800);
-                Game.SetWinner();
-                ResultForm frm = new ResultForm(this);
-                frm.Show();
-                this.Close();
+                EndGame();
                 return;
             }
             Game.NextPlayer();
@@ -131,6 +141,16 @@ namespace MemoryGame
                 NextPlayer();
             }
             
+        }
+
+
+
+        public void EndGame()
+        {
+            Game.SetWinner();
+            ResultForm frm = new ResultForm(this);
+             frm.Show();
+            this.Close();
         }
 
         public void AddScore()

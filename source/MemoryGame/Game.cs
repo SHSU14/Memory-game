@@ -22,27 +22,14 @@ namespace MemoryGame
         public int Score { get; set; }
         public Game(Settings settings)
         {
-            /*this.Players = new Player[settings.Players + settings.AIPlayers];
-            for (int i = 0; i < settings.Players; i++)
-            {
-                var player = new Player("Spelare " + (i + 1).ToString(), settings.ShowCardTimer);
-                player.Color = Colors[i];
-                Players[i] = player;
-
-            }
-            for (int i = settings.Players; i < settings.Players + settings.AIPlayers; i++)
-            {
-                var aiPlayer = new AIPlayer("AIspelare " + (i + 1).ToString(), settings.ShowCardTimer);
-                aiPlayer.Color = Colors[i];
-                Players[i] = aiPlayer;
-
-            }*/
             
             this.Players = settings.Playerlist;
             this.settings = settings;
 
             CurrentPlayer = Players[0];
             Score = 0;
+        Ended = false;
+
         }
        
         public void NextPlayer()
@@ -85,11 +72,15 @@ namespace MemoryGame
             {
                 equalscore = true;
             }
+
+            Ended = true;
         }
 
         public bool IsWon()
         {
             return this.Score == (this.settings.CardNumber / 2);
         }
+
+        public bool Ended { get; set; }
     }
 }

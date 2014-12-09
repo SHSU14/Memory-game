@@ -126,7 +126,6 @@
             0,
             0});
             this.num_Cardnumber.ValueChanged += new System.EventHandler(this.num_Cardnumber_ValueChanged);
-            
             // 
             // label3
             // 
@@ -172,7 +171,6 @@
             // cmb_Level
             // 
             this.cmb_Level.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmb_Level.Enabled = false;
             this.cmb_Level.FormattingEnabled = true;
             this.cmb_Level.Items.AddRange(new object[] {
             "Lätt",

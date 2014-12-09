@@ -40,10 +40,6 @@ namespace MemoryGame
                 frm.NextPlayer();
             }
                 
-            
-
-
-            //this.listView1 = new ListView[]
 
         }
 
@@ -55,7 +51,7 @@ namespace MemoryGame
         public void getSettings()
         {
             
-            var value2 = this.cmb_Level.Text;
+            var value2 = this.cmb_Level.Text.Trim();
             settings.AILevels = value2;
    
 
@@ -78,57 +74,19 @@ namespace MemoryGame
             this.settings.Playerlist = new Player[playerListView.Items.Count];
             for(int i = 0; i < this.playerListView.Items.Count; i++)
             {
-                var value7 = this.playerListView.Items[i].Text;
+                var value7 = this.playerListView.Items[i].Text.Trim();
                 if (value7.StartsWith("AI"))
                 {
-                    settings.Playerlist[i] = new AIPlayer(value7, settings.AILevels);   
+                    settings.Playerlist[i] = new AIPlayer(value7, settings.AILevels);
+  
                 }
                 else
                 settings.Playerlist[i] = new Player(value7);
             }
         }
 
-        //private void cmb_spelare_Validated(object sender, EventArgs e)
-        //{
-        //    var AIplayer = this.cmb_AI.Text;
-        //    var player = this.cmb_spelare.Text;
 
-        //    if (int.Parse(player) > 10)
-        //    {
-        //        MessageBox.Show("Du har valt för många spelare!");
-        //    }
-        //}
-        //private void cmb_AI_Validated(object sender, EventArgs e)
-        //{
-        //    var AIplayer = this.cmb_AI.Text;
-        //    var player = this.cmb_spelare.Text;
-
-        //    if (int.Parse(AIplayer) > 10)
-        //    {
-        //        MessageBox.Show("Du har valt för många AIspelare!");
-        //    }
-        //}
-        //private void cmb_AI_SelectedIndexChanged(object sender, EventArgs e)
-        //{
-        //    StartForm frm = new StartForm();
-        //    var player = this.cmb_AI.Text;
-        //    if (int.Parse(player) == 10)
-        //    {
-        //        cmb_spelare.Hide();
-        //        frm.Refresh();
-        //    }
-        //    if (int.Parse(player) <= 9)
-        //    {
-        //        cmb_spelare.Show();
-        //        frm.Refresh();
-        //    }
-        //}
-
-        private void cmb_spelare_SelectedIndexChanged(object sender, EventArgs e)
-        {
-         
-       
-        }
+ 
 
         private void num_Cardnumber_ValueChanged(object sender, EventArgs e)
         {

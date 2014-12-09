@@ -23,13 +23,14 @@ namespace MemoryGame
             InitializeComponent();
             if(game.equalscore)
             {
-                 this.winner_label.Text = game.Winner.Name + " Det blev ovavgjort";
+                 this.winner_label.Text = " Det blev oavgjort";
             }
             else
             {
                  this.winner_label.Text = game.Winner.Name + " har vunnit!";
+                 this.winner_label.ForeColor = game.Winner.Color;
             }  
-            this.winner_label.ForeColor = game.Winner.Color;
+            
             GenerateLables();
  
 

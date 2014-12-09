@@ -42,11 +42,16 @@ namespace MemoryGame
         public void HandleCardtimer(Object sender, EventArgs e)
         {
             cardTimer.Stop();
-            if ((!IsMatched() && open) || game.IsWon())
+            if ((!IsMatched() && open))
             {
                 Close();
                 if(!game.Ignore())
                 gameBoardForm.NextPlayer(); 
+            }
+            else if (game.IsWon() && !(game.Ended == true))
+            {
+                this.gameBoardForm.EndGame();
+                game.Ended = true;
             }
 
         }
@@ -98,6 +103,14 @@ namespace MemoryGame
             Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(Data.BackSide);
             open = false;
             this.gameBoardForm.closedCardList.Add(this);
+            if (gameBoardForm.memoryCapacity != 0)
+            {
+                if (gameBoardForm.memoryList.Count == gameBoardForm.memoryCapacity)
+                {
+                    gameBoardForm.memoryList.RemoveAt(0);
+                }
+                gameBoardForm.memoryList.Add(this);
+            }
             this.Refresh();
         }
         
