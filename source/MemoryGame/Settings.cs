@@ -18,8 +18,8 @@ namespace MemoryGame
 
         public Settings()
         {
-            Players = 12;
-            AIPlayers = 0;
+            Players = 1;
+            AIPlayers = 1;
             this.CardNumber = 12;
             Themes = "frukt";
             PlayersTurnTimer = 4;

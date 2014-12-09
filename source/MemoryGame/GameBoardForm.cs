@@ -15,6 +15,7 @@ namespace MemoryGame
         public StartForm startForm;
         public Timer thinkTimer = new Timer();
         public Timer cardTimer = new Timer();
+        public List<MemoryCardControl> closedCardList;
 
         public GameBoardForm(StartForm startForm)
         {
@@ -48,11 +49,11 @@ namespace MemoryGame
                 control.Location = new System.Drawing.Point(x, y);
                 this.Controls.Add(control);
             }
-
+            closedCardList = this.Controls.OfType<MemoryCardControl>().ToList();
 
             var px = xOffset*columns + 30;
             var py = 40;
-            for (int i = 0; i < settings.Players; i++)
+            for (int i = 0; i < Game.Players.Length; i++)
             {
                 var player = Game.Players[i];
                 var playerlabel = new Label();
@@ -73,10 +74,8 @@ namespace MemoryGame
 
         private void Shuffle()
         {
-            var mcList = new System.Collections.Generic.List<MemoryCardControl>();
-            mcList = this.Controls.OfType<MemoryCardControl>().ToList();
             CardShuffler shuffler = new CardShuffler(startForm.settings);
-            shuffler.Shuffle(mcList);
+            shuffler.Shuffle(closedCardList);
         }
 
 
@@ -114,7 +113,14 @@ namespace MemoryGame
         public void NextPlayer()
         {
             Game.NextPlayer();
-            this.Text = Game.CurrentPlayer.Name;
+            Player player = Game.CurrentPlayer;
+            this.Text = player.Name;
+            if (player is AIPlayer)
+            {
+                ((AIPlayer)player).OpenNewCard(closedCardList);
+                NextPlayer();
+            }
+            
         }
 
         public void AddScore()

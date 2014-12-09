@@ -19,29 +19,36 @@ namespace MemoryGame
         public int Score { get; set; }
         public Game(Settings settings)
         {
-            this.Players = new Player[settings.Players];
+            this.Players = new Player[settings.Players + settings.AIPlayers];
             for (int i = 0; i < settings.Players; i++)
             {
-                var player = new Player("Spelare " + (i + 1).ToString());
+                var player = new Player("Spelare " + (i + 1).ToString(), settings.ShowCardTimer);
                 player.Color = Colors[i];
                 Players[i] = player;
 
             }
+            for (int i = settings.Players; i < settings.Players + settings.AIPlayers; i++)
+            {
+                var aiPlayer = new AIPlayer("AIspelare " + (i + 1).ToString(), settings.ShowCardTimer);
+                aiPlayer.Color = Colors[i];
+                Players[i] = aiPlayer;
+
+            }
+            
             CurrentPlayer = Players[0];
             Score = 0;
         }
 
         public void NextPlayer()
         {
-            if (ignore)
-                return;
             currentIndex = (currentIndex + 1)% Players.Length;
             CurrentPlayer = Players[currentIndex];
         }
 
-        public void Ignore()
+        public bool Ignore()
         {
-            ignore = !ignore;     
+            ignore = !ignore;
+            return ignore;
         }
 
         public void SetWinner()

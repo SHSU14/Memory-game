@@ -150,7 +150,6 @@
             // cmb_AI
             // 
             this.cmb_AI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmb_AI.Enabled = false;
             this.cmb_AI.FormattingEnabled = true;
             this.cmb_AI.ItemHeight = 17;
             this.cmb_AI.Items.AddRange(new object[] {
