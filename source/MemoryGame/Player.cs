@@ -29,7 +29,7 @@ namespace MemoryGame
     public class AIPlayer: Player
     {
         private List<MemoryCardControl> mcList;
-        public AIPlayer(string name, int waitTimer) : base(name)
+        public AIPlayer(string name) : base(name)
         {
            
         }

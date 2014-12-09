@@ -69,6 +69,11 @@ namespace MemoryGame
             for(int i = 0; i < this.playerListView.Items.Count; i++)
             {
                 var value7 = this.playerListView.Items[i].Text;
+                if (value7.StartsWith("AI"))
+                {
+                    settings.Playerlist[i] = new AIPlayer(value7);   
+                }
+                else
                 settings.Playerlist[i] = new Player(value7);
             }
         }
@@ -131,7 +136,7 @@ namespace MemoryGame
             var listViewItem = new ListViewItem(row);
             if (checkBox1.Checked)
             {
-                playerListView.Items.Add(listViewItem.Text + " AI");     
+                playerListView.Items.Add("AI " + listViewItem.Text);     
            
             }
             else
