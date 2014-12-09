@@ -121,6 +121,27 @@ namespace MemoryGame
             {
                 MessageBox.Show("Du måste välja ett jämt antal kort mellan 12 - 120");
             }           
+        }
+
+        private void cmb_Themes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Object sel = cmb_Themes.SelectedItem;
+
+            if (sel.ToString() == "Frukt") {
+
+            BackgroundImage = MemoryGame.Properties.Resources.fruktBg;
+
+
+            }
+
+
+            else if (sel.ToString() == "Djur")
+            BackgroundImage = MemoryGame.Properties.Resources.djurBg;
+
+            else{
+
+                BackgroundImage = MemoryGame.Properties.Resources.vägmärkenBg;
+            }
         }           
     }
 }

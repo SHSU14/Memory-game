@@ -50,29 +50,29 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(79, 238);
+            this.label5.Location = new System.Drawing.Point(59, 182);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 17);
+            this.label5.Size = new System.Drawing.Size(86, 13);
             this.label5.TabIndex = 22;
             this.label5.Text = "Visningstid (sec):";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(79, 213);
+            this.label4.Location = new System.Drawing.Point(59, 163);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 17);
+            this.label4.Size = new System.Drawing.Size(87, 13);
             this.label4.TabIndex = 21;
             this.label4.Text = "Betänketid (sec):";
             // 
             // nud_ShowCardTimer
             // 
-            this.nud_ShowCardTimer.Location = new System.Drawing.Point(195, 234);
+            this.nud_ShowCardTimer.Location = new System.Drawing.Point(146, 179);
             this.nud_ShowCardTimer.Margin = new System.Windows.Forms.Padding(2);
             this.nud_ShowCardTimer.Name = "nud_ShowCardTimer";
-            this.nud_ShowCardTimer.Size = new System.Drawing.Size(53, 23);
+            this.nud_ShowCardTimer.Size = new System.Drawing.Size(40, 20);
             this.nud_ShowCardTimer.TabIndex = 20;
             this.nud_ShowCardTimer.Value = new decimal(new int[] {
             1,
@@ -82,10 +82,10 @@
             // 
             // nud_PlayerTurnTimer
             // 
-            this.nud_PlayerTurnTimer.Location = new System.Drawing.Point(195, 209);
+            this.nud_PlayerTurnTimer.Location = new System.Drawing.Point(146, 160);
             this.nud_PlayerTurnTimer.Margin = new System.Windows.Forms.Padding(2);
             this.nud_PlayerTurnTimer.Name = "nud_PlayerTurnTimer";
-            this.nud_PlayerTurnTimer.Size = new System.Drawing.Size(53, 23);
+            this.nud_PlayerTurnTimer.Size = new System.Drawing.Size(40, 20);
             this.nud_PlayerTurnTimer.TabIndex = 19;
             this.nud_PlayerTurnTimer.Value = new decimal(new int[] {
             1,
@@ -100,7 +100,7 @@
             0,
             0,
             0});
-            this.num_Cardnumber.Location = new System.Drawing.Point(159, 142);
+            this.num_Cardnumber.Location = new System.Drawing.Point(119, 109);
             this.num_Cardnumber.Margin = new System.Windows.Forms.Padding(2);
             this.num_Cardnumber.Maximum = new decimal(new int[] {
             120,
@@ -113,7 +113,7 @@
             0,
             0});
             this.num_Cardnumber.Name = "num_Cardnumber";
-            this.num_Cardnumber.Size = new System.Drawing.Size(49, 23);
+            this.num_Cardnumber.Size = new System.Drawing.Size(37, 20);
             this.num_Cardnumber.TabIndex = 18;
             this.num_Cardnumber.Value = new decimal(new int[] {
             12,
@@ -126,7 +126,7 @@
             // 
             this.cmb_spelare.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_spelare.FormattingEnabled = true;
-            this.cmb_spelare.ItemHeight = 17;
+            this.cmb_spelare.ItemHeight = 13;
             this.cmb_spelare.Items.AddRange(new object[] {
             "0",
             "1",
@@ -139,10 +139,10 @@
             "8",
             "9",
             "10"});
-            this.cmb_spelare.Location = new System.Drawing.Point(159, 34);
+            this.cmb_spelare.Location = new System.Drawing.Point(119, 26);
             this.cmb_spelare.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_spelare.Name = "cmb_spelare";
-            this.cmb_spelare.Size = new System.Drawing.Size(49, 25);
+            this.cmb_spelare.Size = new System.Drawing.Size(38, 21);
             this.cmb_spelare.TabIndex = 17;
             this.cmb_spelare.SelectedIndexChanged += new System.EventHandler(this.cmb_spelare_SelectedIndexChanged);
             this.cmb_spelare.Validated += new System.EventHandler(this.cmb_spelare_Validated);
@@ -152,7 +152,7 @@
             this.cmb_AI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_AI.Enabled = false;
             this.cmb_AI.FormattingEnabled = true;
-            this.cmb_AI.ItemHeight = 17;
+            this.cmb_AI.ItemHeight = 13;
             this.cmb_AI.Items.AddRange(new object[] {
             "0",
             "1",
@@ -165,10 +165,10 @@
             "8",
             "9",
             "10"});
-            this.cmb_AI.Location = new System.Drawing.Point(159, 76);
+            this.cmb_AI.Location = new System.Drawing.Point(119, 58);
             this.cmb_AI.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_AI.Name = "cmb_AI";
-            this.cmb_AI.Size = new System.Drawing.Size(49, 25);
+            this.cmb_AI.Size = new System.Drawing.Size(38, 21);
             this.cmb_AI.TabIndex = 16;
             this.cmb_AI.SelectedIndexChanged += new System.EventHandler(this.cmb_AI_SelectedIndexChanged);
             this.cmb_AI.Validated += new System.EventHandler(this.cmb_AI_Validated);
@@ -176,39 +176,39 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(79, 144);
+            this.label3.Location = new System.Drawing.Point(59, 110);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 17);
+            this.label3.Size = new System.Drawing.Size(56, 13);
             this.label3.TabIndex = 15;
             this.label3.Text = "Antal Kort:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(79, 76);
+            this.label2.Location = new System.Drawing.Point(59, 58);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 17);
+            this.label2.Size = new System.Drawing.Size(59, 13);
             this.label2.TabIndex = 14;
             this.label2.Text = "AI Spelare:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(79, 38);
+            this.label1.Location = new System.Drawing.Point(59, 29);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 17);
+            this.label1.Size = new System.Drawing.Size(46, 13);
             this.label1.TabIndex = 13;
             this.label1.Text = "Spelare:";
             // 
             // btn_starta
             // 
-            this.btn_starta.Location = new System.Drawing.Point(159, 275);
+            this.btn_starta.Location = new System.Drawing.Point(119, 210);
             this.btn_starta.Margin = new System.Windows.Forms.Padding(2);
             this.btn_starta.Name = "btn_starta";
-            this.btn_starta.Size = new System.Drawing.Size(100, 33);
+            this.btn_starta.Size = new System.Drawing.Size(75, 25);
             this.btn_starta.TabIndex = 26;
             this.btn_starta.Text = "Starta";
             this.btn_starta.UseVisualStyleBackColor = true;
@@ -217,10 +217,10 @@
             // Tema
             // 
             this.Tema.AutoSize = true;
-            this.Tema.Location = new System.Drawing.Point(79, 180);
+            this.Tema.Location = new System.Drawing.Point(59, 138);
             this.Tema.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Tema.Name = "Tema";
-            this.Tema.Size = new System.Drawing.Size(48, 17);
+            this.Tema.Size = new System.Drawing.Size(37, 13);
             this.Tema.TabIndex = 30;
             this.Tema.Text = "Tema:";
             // 
@@ -233,10 +233,10 @@
             "Lätt",
             "Medel ",
             "Svår"});
-            this.cmb_Level.Location = new System.Drawing.Point(159, 105);
-            this.cmb_Level.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.cmb_Level.Location = new System.Drawing.Point(119, 80);
+            this.cmb_Level.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmb_Level.Name = "cmb_Level";
-            this.cmb_Level.Size = new System.Drawing.Size(89, 25);
+            this.cmb_Level.Size = new System.Drawing.Size(68, 21);
             this.cmb_Level.TabIndex = 31;
             // 
             // cmb_Themes
@@ -247,17 +247,19 @@
             "Frukt",
             "Vägmärken",
             "Djur"});
-            this.cmb_Themes.Location = new System.Drawing.Point(159, 176);
-            this.cmb_Themes.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.cmb_Themes.Location = new System.Drawing.Point(119, 135);
+            this.cmb_Themes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmb_Themes.Name = "cmb_Themes";
-            this.cmb_Themes.Size = new System.Drawing.Size(89, 25);
+            this.cmb_Themes.Size = new System.Drawing.Size(68, 21);
             this.cmb_Themes.TabIndex = 32;
+            this.cmb_Themes.SelectedIndexChanged += new System.EventHandler(this.cmb_Themes_SelectedIndexChanged);
             // 
             // StartForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(370, 361);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(616, 276);
             this.Controls.Add(this.cmb_Themes);
             this.Controls.Add(this.cmb_Level);
             this.Controls.Add(this.Tema);
