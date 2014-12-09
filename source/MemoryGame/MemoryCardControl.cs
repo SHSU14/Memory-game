@@ -45,8 +45,8 @@ namespace MemoryGame
             if (!IsMatched() && open)
             {
                 Close();
-                game.Ignore();
-                gameBoardForm.NextPlayer();
+                if(!game.Ignore())
+                gameBoardForm.NextPlayer(); 
             }
 
         }
@@ -66,39 +66,43 @@ namespace MemoryGame
         }
 
         //"Öppnar" kortet d v s visar bilden
-        private void Open()
+        public void Open(bool isAIPlayer)
         {
             if (thinkTimer.Enabled)
             {
                 thinkTimer.Stop();
-                cardTimer.Start();
+                if (!isAIPlayer)
+                    cardTimer.Start();
             }
-            else
+            else if (!isAIPlayer)
             {
                 thinkTimer.Start();
             }
             Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(Data.Symbol);
             Data.Counter++;
+            this.gameBoardForm.closedCardList.Remove(this);  
 
             if (Data.Counter == 2)
             {
                 this.Refresh();
                 gameBoardForm.AddScore();
             }
-
+            this.Refresh();
             open = true;
         }
 
         //"Stänger kortet" d v s visar baksidan
-        private void Close()
+        public void Close()
         {
             Data.Counter--;
             Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(Data.BackSide);
             open = false;
+            this.gameBoardForm.closedCardList.Add(this);
+            this.Refresh();
         }
         
 
-        private bool IsMatched()
+        public bool IsMatched()
         {
             return (this.Data.Counter == 2);
         }
@@ -111,11 +115,9 @@ namespace MemoryGame
                 return;
             else
             {
-                Open();
+                Open(false);
             }
         }
-
-
 
     }
 }
