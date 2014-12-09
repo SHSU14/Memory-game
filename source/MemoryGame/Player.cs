@@ -11,7 +11,7 @@ namespace MemoryGame
    public class Player
     {
     
-       public Player(string name, int waitTime)
+       public Player(string name)
        {
            this.Name = name;
            Score = 0;
@@ -29,7 +29,7 @@ namespace MemoryGame
     public class AIPlayer: Player
     {
         private List<MemoryCardControl> mcList;
-        public AIPlayer(string name, int waitTimer) : base(name, waitTimer)
+        public AIPlayer(string name, int waitTimer) : base(name)
         {
            
         }

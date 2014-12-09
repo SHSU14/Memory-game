@@ -9,6 +9,7 @@ namespace MemoryGame
 {
     public class Game
     {
+        public List<Player> Playerlist {get; set;}
         public Player[] Players { get; set; }
         public Player Winner { get; set; }
         private int currentIndex = 0;
@@ -19,7 +20,7 @@ namespace MemoryGame
         public int Score { get; set; }
         public Game(Settings settings)
         {
-            this.Players = new Player[settings.Players + settings.AIPlayers];
+            /*this.Players = new Player[settings.Players + settings.AIPlayers];
             for (int i = 0; i < settings.Players; i++)
             {
                 var player = new Player("Spelare " + (i + 1).ToString(), settings.ShowCardTimer);
@@ -33,12 +34,14 @@ namespace MemoryGame
                 aiPlayer.Color = Colors[i];
                 Players[i] = aiPlayer;
 
-            }
+            }*/
             
+            this.Players = settings.Playerlist;
+
             CurrentPlayer = Players[0];
             Score = 0;
         }
-
+       
         public void NextPlayer()
         {
             currentIndex = (currentIndex + 1)% Players.Length;
