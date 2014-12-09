@@ -21,7 +21,14 @@ namespace MemoryGame
             this.startForm = board.startForm;
             this.game = board.Game;
             InitializeComponent();
-            this.winner_label.Text = game.Winner.Name + " har vunnit!";
+            if(game.equalscore)
+            {
+                 this.winner_label.Text = game.Winner.Name + " Det blev ovavgjort";
+            }
+            else
+            {
+                 this.winner_label.Text = game.Winner.Name + " har vunnit!";
+            }  
             this.winner_label.ForeColor = game.Winner.Color;
             GenerateLables();
  
@@ -78,5 +85,6 @@ namespace MemoryGame
                 Application.Exit();
 
         }
+
     }
 }
