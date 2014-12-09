@@ -8,6 +8,7 @@ namespace MemoryGame
 {
     public class Settings
     {
+        
         public int Players { get; set; }
         public int AIPlayers { get; set; }
         public string AILevels { get; set; }
@@ -15,6 +16,7 @@ namespace MemoryGame
         public string Themes { get; set; }
         public int PlayersTurnTimer { get; set; }
         public int ShowCardTimer { get; set; }
+        public Player[] Playerlist {get; set;}
 
         public Settings()
         {
@@ -24,6 +26,7 @@ namespace MemoryGame
             Themes = "frukt";
             PlayersTurnTimer = 4;
             ShowCardTimer = 2;
-        }
+        }            
+        
     }
 }

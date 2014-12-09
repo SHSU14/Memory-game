@@ -20,17 +20,21 @@ namespace MemoryGame
             InitializeComponent();
             this.cmb_Themes.SelectedIndex = 0;
             this.cmb_Level.SelectedIndex = 0;
-            this.cmb_spelare.SelectedIndex = 2;
+            //this.cmb_spelare.SelectedIndex = 2;
         }
 
         // Öppna spelplanen(GameBoardForm)
         private void btn_starta_Click(object sender, EventArgs e)
         {
-            getSettings();    
+            getSettings(); 
+            
          
             GameBoardForm frm = new GameBoardForm(this);
             frm.Show();
             this.Hide();
+
+            //this.listView1 = new ListView[]
+
         }
 
         public DialogResult ExitGame()
@@ -40,17 +44,7 @@ namespace MemoryGame
 
         public void getSettings()
         {
-            var value = this.cmb_spelare.SelectedItem.ToString();
-            settings.Players = int.Parse(value);
-
-
-            if (this.cmb_AI.SelectedItem != null)
-            {
-                var value1 = this.cmb_AI.SelectedItem.ToString();
-                settings.AIPlayers = int.Parse(value1);
-            }
-
-
+            
             var value2 = this.cmb_Level.Text;
             settings.AILevels = value2;
    
@@ -69,44 +63,51 @@ namespace MemoryGame
 
             var value6 = this.nud_ShowCardTimer.Value.ToString();
             settings.ShowCardTimer = int.Parse(value6);
-          
+
+
+            this.settings.Playerlist = new Player[playerListView.Items.Count];
+            for(int i = 0; i < this.playerListView.Items.Count; i++)
+            {
+                var value7 = this.playerListView.Items[i].Text;
+                settings.Playerlist[i] = new Player(value7);
+            }
         }
 
-        private void cmb_spelare_Validated(object sender, EventArgs e)
-        {
-            var AIplayer = this.cmb_AI.Text;
-            var player = this.cmb_spelare.Text;
+        //private void cmb_spelare_Validated(object sender, EventArgs e)
+        //{
+        //    var AIplayer = this.cmb_AI.Text;
+        //    var player = this.cmb_spelare.Text;
 
-            if (int.Parse(player) > 10)
-            {
-                MessageBox.Show("Du har valt för många spelare!");
-            }
-        }
-        private void cmb_AI_Validated(object sender, EventArgs e)
-        {
-            var AIplayer = this.cmb_AI.Text;
-            var player = this.cmb_spelare.Text;
+        //    if (int.Parse(player) > 10)
+        //    {
+        //        MessageBox.Show("Du har valt för många spelare!");
+        //    }
+        //}
+        //private void cmb_AI_Validated(object sender, EventArgs e)
+        //{
+        //    var AIplayer = this.cmb_AI.Text;
+        //    var player = this.cmb_spelare.Text;
 
-            if (int.Parse(AIplayer) > 10)
-            {
-                MessageBox.Show("Du har valt för många AIspelare!");
-            }
-        }
-        private void cmb_AI_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            StartForm frm = new StartForm();
-            var player = this.cmb_AI.Text;
-            if (int.Parse(player) == 10)
-            {
-                cmb_spelare.Hide();
-                frm.Refresh();
-            }
-            if (int.Parse(player) <= 9)
-            {
-                cmb_spelare.Show();
-                frm.Refresh();
-            }
-        }
+        //    if (int.Parse(AIplayer) > 10)
+        //    {
+        //        MessageBox.Show("Du har valt för många AIspelare!");
+        //    }
+        //}
+        //private void cmb_AI_SelectedIndexChanged(object sender, EventArgs e)
+        //{
+        //    StartForm frm = new StartForm();
+        //    var player = this.cmb_AI.Text;
+        //    if (int.Parse(player) == 10)
+        //    {
+        //        cmb_spelare.Hide();
+        //        frm.Refresh();
+        //    }
+        //    if (int.Parse(player) <= 9)
+        //    {
+        //        cmb_spelare.Show();
+        //        frm.Refresh();
+        //    }
+        //}
 
         private void cmb_spelare_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -121,6 +122,36 @@ namespace MemoryGame
             {
                 MessageBox.Show("Du måste välja ett jämt antal kort mellan 12 - 120");
             }           
-        }           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string[] row = { textBox1.Text };
+            string[] checkboxName = { checkBox1.Name};
+            var listViewItem = new ListViewItem(row);
+            if (checkBox1.Checked)
+            {
+                playerListView.Items.Add(listViewItem.Text + " AI");     
+           
+            }
+            else
+                playerListView.Items.Add(listViewItem);
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ListViewItem lvi = new ListViewItem();
+            lvi.Text = textBox1.Name;
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+            foreach (ListViewItem listViewItem in playerListView.SelectedItems)
+            {
+                    listViewItem.Remove();
+            }        
+        }        
     }
 }

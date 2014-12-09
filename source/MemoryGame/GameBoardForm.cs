@@ -52,7 +52,7 @@ namespace MemoryGame
 
             var px = xOffset*columns + 30;
             var py = 40;
-            for (int i = 0; i < settings.Players; i++)
+            for (int i = 0; i < settings.Playerlist.Length; i++)
             {
                 var player = Game.Players[i];
                 var playerlabel = new Label();
