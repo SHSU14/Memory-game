@@ -35,9 +35,12 @@ namespace MemoryGame
         }
         public void OpenNewCard(List<MemoryCardControl> closedCardsList)
         {
+           if (closedCardsList.Count == 0)
+                return;
             Thread.Sleep(800);
             Random rnd = new Random();
             var index = rnd.Next(closedCardsList.Count);
+            
             var card = closedCardsList[index];
             card.Open(true);
             Thread.Sleep(800);
@@ -50,6 +53,7 @@ namespace MemoryGame
             if (card.IsMatched())
             {
                 OpenNewCard(closedCardsList); 
+
             }
             else
             {

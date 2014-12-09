@@ -84,7 +84,7 @@ namespace MemoryGame
 
             if (Data.Counter == 2)
             {
-                
+                this.Refresh();
                 gameBoardForm.AddScore();
             }
             this.Refresh();

@@ -112,6 +112,15 @@ namespace MemoryGame
 
         public void NextPlayer()
         {
+            if (Game.Score == this.startForm.settings.CardNumber / 2)
+            {
+                System.Threading.Thread.Sleep(800);
+                Game.SetWinner();
+                ResultForm frm = new ResultForm(this);
+                frm.Show();
+                this.Close();
+                return;
+            }
             Game.NextPlayer();
             Player player = Game.CurrentPlayer;
             this.Text = player.Name;
@@ -131,14 +140,7 @@ namespace MemoryGame
 
             var playerLabel = (Label)this.Controls.Find(Game.CurrentPlayer.Name, false).First();
             playerLabel.Text = Game.CurrentPlayer.Name + " :  " + Game.CurrentPlayer.Score.ToString();
-            if (Game.Score == this.startForm.settings.CardNumber / 2)
-            {
-                System.Threading.Thread.Sleep(800);
-                Game.SetWinner();
-                ResultForm frm = new ResultForm(this);
-                frm.Show();
-                this.Close();
-            }
+            this.Refresh();
             
         }
     }
