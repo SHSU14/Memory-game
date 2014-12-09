@@ -115,7 +115,7 @@ namespace MemoryGame
         {
             if (Game.Score == this.startForm.settings.CardNumber / 2)
             {
-                System.Threading.Thread.Sleep(800);
+                //System.Threading.Thread.Sleep(800);
                 Game.SetWinner();
                 ResultForm frm = new ResultForm(this);
                 frm.Show();
@@ -137,7 +137,6 @@ namespace MemoryGame
         {
             Game.CurrentPlayer.Score += 1;
             Game.Score += 1;
-
 
             var playerLabel = (Label)this.Controls.Find(Game.CurrentPlayer.Name, false).First();
             playerLabel.Text = Game.CurrentPlayer.Name + " :  " + Game.CurrentPlayer.Score.ToString();

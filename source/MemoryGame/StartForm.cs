@@ -31,7 +31,17 @@ namespace MemoryGame
          
             GameBoardForm frm = new GameBoardForm(this);
             frm.Show();
+            var player = frm.Game.CurrentPlayer;
             this.Hide();
+            frm.Refresh();
+            if (player is AIPlayer)
+            {
+                ((AIPlayer)player).OpenNewCard(frm.closedCardList);
+                frm.NextPlayer();
+            }
+                
+            
+
 
             //this.listView1 = new ListView[]
 
@@ -71,7 +81,7 @@ namespace MemoryGame
                 var value7 = this.playerListView.Items[i].Text;
                 if (value7.StartsWith("AI"))
                 {
-                    settings.Playerlist[i] = new AIPlayer(value7);   
+                    settings.Playerlist[i] = new AIPlayer(value7, settings.AILevels);   
                 }
                 else
                 settings.Playerlist[i] = new Player(value7);

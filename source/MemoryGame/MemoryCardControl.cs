@@ -42,7 +42,7 @@ namespace MemoryGame
         public void HandleCardtimer(Object sender, EventArgs e)
         {
             cardTimer.Stop();
-            if (!IsMatched() && open)
+            if ((!IsMatched() && open) || game.IsWon())
             {
                 Close();
                 if(!game.Ignore())

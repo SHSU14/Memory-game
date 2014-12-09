@@ -10,6 +10,7 @@ namespace MemoryGame
     public class Game
     {
         public List<Player> Playerlist {get; set;}
+        public Settings settings;
         public Player[] Players { get; set; }
         public Player Winner { get; set; }
         private int currentIndex = 0;
@@ -37,6 +38,7 @@ namespace MemoryGame
             }*/
             
             this.Players = settings.Playerlist;
+            this.settings = settings;
 
             CurrentPlayer = Players[0];
             Score = 0;
@@ -70,6 +72,11 @@ namespace MemoryGame
                 }
             }
             this.Winner = winner;
+        }
+
+        public bool IsWon()
+        {
+            return this.Score == (this.settings.CardNumber / 2);
         }
     }
 }
