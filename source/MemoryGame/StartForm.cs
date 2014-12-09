@@ -109,6 +109,8 @@ namespace MemoryGame
             }
             else
                 playerListView.Items.Add(listViewItem);
+            textBox1.Clear();
+            checkBox1.Checked = false;
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -125,6 +127,11 @@ namespace MemoryGame
             {
                     listViewItem.Remove();
             }        
+        }
+
+        private void Tema_Click(object sender, EventArgs e)
+        {
+
         }        
     }
 }

@@ -65,7 +65,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(28, 207);
+            this.label4.Location = new System.Drawing.Point(28, 202);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(87, 13);
@@ -74,7 +74,7 @@
             // 
             // nud_ShowCardTimer
             // 
-            this.nud_ShowCardTimer.Location = new System.Drawing.Point(115, 240);
+            this.nud_ShowCardTimer.Location = new System.Drawing.Point(135, 241);
             this.nud_ShowCardTimer.Margin = new System.Windows.Forms.Padding(2);
             this.nud_ShowCardTimer.Name = "nud_ShowCardTimer";
             this.nud_ShowCardTimer.Size = new System.Drawing.Size(40, 20);
@@ -87,7 +87,7 @@
             // 
             // nud_PlayerTurnTimer
             // 
-            this.nud_PlayerTurnTimer.Location = new System.Drawing.Point(115, 204);
+            this.nud_PlayerTurnTimer.Location = new System.Drawing.Point(135, 200);
             this.nud_PlayerTurnTimer.Margin = new System.Windows.Forms.Padding(2);
             this.nud_PlayerTurnTimer.Name = "nud_PlayerTurnTimer";
             this.nud_PlayerTurnTimer.Size = new System.Drawing.Size(40, 20);
@@ -105,7 +105,7 @@
             0,
             0,
             0});
-            this.num_Cardnumber.Location = new System.Drawing.Point(88, 118);
+            this.num_Cardnumber.Location = new System.Drawing.Point(89, 117);
             this.num_Cardnumber.Margin = new System.Windows.Forms.Padding(2);
             this.num_Cardnumber.Maximum = new decimal(new int[] {
             120,
@@ -140,7 +140,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(28, 29);
+            this.label1.Location = new System.Drawing.Point(28, 32);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 13);
@@ -190,10 +190,10 @@
             "Frukt",
             "Vägmärken",
             "Djur"});
-            this.cmb_Themes.Location = new System.Drawing.Point(88, 162);
+            this.cmb_Themes.Location = new System.Drawing.Point(89, 162);
             this.cmb_Themes.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_Themes.Name = "cmb_Themes";
-            this.cmb_Themes.Size = new System.Drawing.Size(68, 21);
+            this.cmb_Themes.Size = new System.Drawing.Size(86, 21);
             this.cmb_Themes.TabIndex = 32;
             // 
             // textBox1
@@ -261,11 +261,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(28, 69);
+            this.label2.Location = new System.Drawing.Point(28, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 13);
+            this.label2.Size = new System.Drawing.Size(32, 13);
             this.label2.TabIndex = 40;
-            this.label2.Text = "Nivå";
+            this.label2.Text = "Nivå:";
             // 
             // StartForm
             // 
