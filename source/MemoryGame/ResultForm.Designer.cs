@@ -102,6 +102,7 @@
             this.winner_label.Size = new System.Drawing.Size(188, 33);
             this.winner_label.TabIndex = 28;
             this.winner_label.Text = "Spelare X vann!!";
+            
             // 
             // ResultForm
             // 

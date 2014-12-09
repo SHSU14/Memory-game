@@ -15,7 +15,8 @@ namespace MemoryGame
         private int currentIndex = 0;
         private bool ignore = false;
         public Color[] Colors = { Color.ForestGreen, Color.LimeGreen, Color.YellowGreen, Color.Orange, Color.Red, Color.DeepPink, Color.Violet, Color.Turquoise, Color.DeepSkyBlue, Color.Blue };
-  
+        public bool equalscore = false;
+
         public Player CurrentPlayer { get; set; }
         public int Score { get; set; }
         public Game(Settings settings)
@@ -56,20 +57,32 @@ namespace MemoryGame
 
         public void SetWinner()
         {
+           
+            int equals = 0;
             int score = 0;
             string name = "";
             Player winner = Players[0];
 
             foreach (Player player in Players)
             {
-                if (player.Score > score)
+                if (player.Score >= score && player.Score > equals)
                 {
+                    if(player.Score == score)
+                    {
+                        equals = score; 
+                    }
                     score = player.Score;
                     name = player.Name;
                     winner = player;
                 }
             }
-            this.Winner = winner;
+            if(equals < score) 
+                this.Winner = winner;
+
+            else
+            {
+                equalscore = true;
+            }
         }
     }
 }
