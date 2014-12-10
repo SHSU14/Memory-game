@@ -76,7 +76,7 @@
             this.Score_label.Location = new System.Drawing.Point(321, 59);
             this.Score_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Score_label.Name = "Score_label";
-            this.Score_label.Size = new System.Drawing.Size(61, 16);
+            this.Score_label.Size = new System.Drawing.Size(74, 20);
             this.Score_label.TabIndex = 16;
             this.Score_label.Text = "POÄNG";
             // 
@@ -87,7 +87,7 @@
             this.Player_label.Location = new System.Drawing.Point(36, 59);
             this.Player_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Player_label.Name = "Player_label";
-            this.Player_label.Size = new System.Drawing.Size(77, 16);
+            this.Player_label.Size = new System.Drawing.Size(93, 20);
             this.Player_label.TabIndex = 18;
             this.Player_label.Text = "SPELARE";
             // 
@@ -99,13 +99,13 @@
             this.winner_label.Location = new System.Drawing.Point(108, 9);
             this.winner_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.winner_label.Name = "winner_label";
-            this.winner_label.Size = new System.Drawing.Size(188, 33);
+            this.winner_label.Size = new System.Drawing.Size(235, 41);
             this.winner_label.TabIndex = 28;
             this.winner_label.Text = "Spelare X vann!!";
             // 
             // ResultForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = global::MemoryGame.Properties.Resources.Stardust1;
@@ -118,7 +118,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ResultForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
