@@ -15,6 +15,7 @@ namespace MemoryGame
     {
         private StartForm startForm;
         private Game game;
+        
 
         public ResultForm(GameBoardForm board)
         {
@@ -86,6 +87,28 @@ namespace MemoryGame
                 Application.Exit();
 
         }
+
+       
+        
+        private void ResultForm_Load(object sender, EventArgs e)
+        {
+            
+           if (startForm.settings.Themes.Trim() == "Frukt") 
+            {
+                BackgroundImage = MemoryGame.Properties.Resources.fruktBg;
+
+
+            }
+           else if (startForm.settings.Themes.Trim() == "Djur")
+           {
+               BackgroundImage = MemoryGame.Properties.Resources.djurBg;
+
+
+           } else
+               BackgroundImage = MemoryGame.Properties.Resources.vägmärkenBg;
+        }
+
+        
 
     }
 }

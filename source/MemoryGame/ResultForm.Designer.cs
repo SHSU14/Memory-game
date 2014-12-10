@@ -72,7 +72,9 @@
             // Score_label
             // 
             this.Score_label.AutoSize = true;
+            this.Score_label.BackColor = System.Drawing.Color.Transparent;
             this.Score_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Score_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Score_label.Location = new System.Drawing.Point(321, 59);
             this.Score_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Score_label.Name = "Score_label";
@@ -83,7 +85,9 @@
             // Player_label
             // 
             this.Player_label.AutoSize = true;
+            this.Player_label.BackColor = System.Drawing.Color.Transparent;
             this.Player_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Player_label.Location = new System.Drawing.Point(36, 59);
             this.Player_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Player_label.Name = "Player_label";
@@ -94,8 +98,9 @@
             // winner_label
             // 
             this.winner_label.AutoSize = true;
+            this.winner_label.BackColor = System.Drawing.Color.Transparent;
             this.winner_label.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.winner_label.ForeColor = System.Drawing.Color.Gold;
+            this.winner_label.ForeColor = System.Drawing.Color.Green;
             this.winner_label.Location = new System.Drawing.Point(108, 9);
             this.winner_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.winner_label.Name = "winner_label";
@@ -108,7 +113,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.BackgroundImage = global::MemoryGame.Properties.Resources.Stardust1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(426, 449);
             this.ControlBox = false;
             this.Controls.Add(this.winner_label);
@@ -118,10 +123,11 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ForeColor = System.Drawing.Color.Black;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ResultForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.ResultForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
