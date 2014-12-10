@@ -102,13 +102,13 @@
             this.winner_label.Size = new System.Drawing.Size(188, 33);
             this.winner_label.TabIndex = 28;
             this.winner_label.Text = "Spelare X vann!!";
-            
             // 
             // ResultForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = global::MemoryGame.Properties.Resources.Stardust1;
             this.ClientSize = new System.Drawing.Size(426, 449);
             this.ControlBox = false;
             this.Controls.Add(this.winner_label);

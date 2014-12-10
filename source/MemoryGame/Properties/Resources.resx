@@ -118,589 +118,604 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bild1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bild1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bild2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bild2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bild3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bild3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bild4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bild4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bild5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bild5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bild6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bild6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bild0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bild0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bildBackSide" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bildBackSide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="frukt49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="frukt10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frukt10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="frukt11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt15" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt17" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt18" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt19" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt25" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt26" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt27" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt28" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt29" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt33" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt34" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt36" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt37" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt38" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt39" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt40" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt41" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt42" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt43" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt44" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt45" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt46" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt47" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt49" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt51" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt52" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt53" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt54" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt55" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt56" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt57" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt58" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frukt59" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="vägmärken53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="frukt6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frukt6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="frukt7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="djur57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="frukt8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukt8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="frukt37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="frukt9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frukt9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="djur0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur15" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur17" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur18" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur19" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur25" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur26" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur27" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur28" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur29" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur33" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur34" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur36" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="djur37" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\djur37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur38" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur39" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur40" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur41" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur42" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur43" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur44" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur45" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur46" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur47" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur49" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur51" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur52" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur53" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur54" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur55" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur56" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur57" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur58" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="djur59" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\djur59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="djur6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="djur9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\djur9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken111" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken15" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken17" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken18" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken19" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="vägmärken24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vägmärken24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vägmärken25" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="frukt47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vägmärken26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vägmärken26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vägmärken27" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="frukt4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vägmärken28" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken29" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken33" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken34" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken36" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken37" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken38" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken39" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken40" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken41" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken42" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken43" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken44" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken45" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken46" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken47" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken49" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="frukt51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vägmärken50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vägmärken50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fruktBackSide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukBackSide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="vägmärken51" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vägmärken51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="triangle pattern 62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triangle pattern 62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bild2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bild2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vägmärken52" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vägmärken52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vägmärken53" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="vägmärken59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vägmärken54" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="djur23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vägmärken55" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vägmärken56" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="frukt38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vägmärken57" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vägmärken57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="djur10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bild6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bild6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bild4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bild4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="vägmärken58" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vägmärken58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vägmärken59" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="frukt5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vägmärken6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bild3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bild3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vägmärken7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="vägmärken56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bildBackSide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bildBackSide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stardust" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stardust.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bild1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bild1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bild5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bild5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vägmärken8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vägmärken8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vägmärken9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärken9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="frukt29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="djurBackSide" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\djurBackSide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fruktBackSide" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frukBackSide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="vägmärken4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vägmärkenBackSide" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vägmärkenBackSide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="frukt42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="djurBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\djurBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fruktBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fruktBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="djur34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vägmärkenBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vägmärkenBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memoryGameLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memoryGameLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fruktBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fruktBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärkenBackSide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärkenBackSide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bild0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bild0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vägmärken2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vägmärken2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frukt24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frukt24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djur4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\djur4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stardust1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stardust1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
