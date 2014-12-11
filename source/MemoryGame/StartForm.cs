@@ -34,11 +34,11 @@ namespace MemoryGame
             var player = frm.Game.CurrentPlayer;
             this.Hide();
             frm.Refresh();
-            if (player is AIPlayer)
-            {
-                ((AIPlayer)player).OpenNewCard(frm.closedCardList);
-                frm.NextPlayer();
-            }
+
+            var timer = new Timer();
+            timer.Interval = 10;
+            timer.Tick += frm.HandleAIStart;
+            timer.Start(); 
 
 
         }

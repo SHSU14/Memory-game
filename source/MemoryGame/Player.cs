@@ -46,19 +46,19 @@ namespace MemoryGame
         {
            if (closedCardsList.Count == 0)
                 return;
-           Thread.Sleep(10);
+           Thread.Sleep(700);
 
             //öppna första kortet
            var card = GetCard(closedCardsList, true);
        
             card.Open(true);
-            Thread.Sleep(10);
+            Thread.Sleep(700);
 
             //Öppnar andra kortet
             var card2 =  GetCard(closedCardsList, false);
 
             card2.Open(true);
-            Thread.Sleep(10);
+            Thread.Sleep(700);
             if (card.IsMatched())
             {
                 OpenNewCard(closedCardsList); 

@@ -84,8 +84,8 @@ namespace MemoryGame
         // Spela igen knappen
         private void button1_Click(object sender, EventArgs e)
         {
-            GameBoardForm SpelaIgen = new GameBoardForm(this.startForm);
-            SpelaIgen.Show();
+            GameBoardForm frm = new GameBoardForm(this.startForm);
+            frm.Show();
             this.Close();
         }
 

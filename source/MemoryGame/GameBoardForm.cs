@@ -83,7 +83,7 @@ namespace MemoryGame
                 player.mcList = this.memoryList; 
             }
 
-            this.Size = new Size(columns*xOffset + 150, (total + columns - 1)/columns*yOffset + 90);
+            this.Size = new Size(columns*xOffset + 185, (total + columns - 1)/columns*yOffset + 90);
             this.panel1.Size = new Size(columns * xOffset + 170, (total + columns - 1) / columns * yOffset + 70);
 
             this.panel1.BackgroundImageLayout = ImageLayout.Stretch;
@@ -220,6 +220,20 @@ namespace MemoryGame
             // Visa Om menyn som MessageBox
 
             MessageBox.Show(messageBoxtext,messageBoxtitle,button,icon);
+        }
+
+        internal void HandleAIStart(object sender, EventArgs e)
+        {
+            var timer = (Timer)sender;
+            timer.Stop();
+            timer.Tick -= HandleAIStart;
+
+            if (Game.CurrentPlayer is AIPlayer)
+            {
+                ((AIPlayer)Game.CurrentPlayer).OpenNewCard(closedCardList);
+                NextPlayer();
+            }
+
         }
     }
 }
