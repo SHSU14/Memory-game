@@ -17,7 +17,7 @@ namespace MemoryGame
         public Timer cardTimer = new Timer();
         public List<MemoryCardControl> closedCardList;
         public List<MemoryCardControl> memoryList;
-        public int memoryCapacity = 0;
+        //public int memoryCapacity = 0;
 
         public GameBoardForm(StartForm startForm)
         {
@@ -54,10 +54,6 @@ namespace MemoryGame
             closedCardList = this.panel1.Controls.OfType<MemoryCardControl>().ToList();
 
             memoryList = new List<MemoryCardControl>();
-            if (settings.AILevels == "Medel")
-                this.memoryCapacity = 5;
-            else if (settings.AILevels == "Svår")
-                this.memoryCapacity = 50;
 
 
             var px = xOffset*columns + 30;

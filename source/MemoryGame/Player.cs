@@ -36,6 +36,7 @@ namespace MemoryGame
         public List<MemoryCardControl> mcList;
         public string level = "Lätt";
         private Random rnd;
+        public int MemoryCapacity { get; set; }
         public AIPlayer(string name, string level) : base(name)
         {
             this.level = level;
@@ -106,7 +107,14 @@ namespace MemoryGame
 
         private MemoryCardControl FindMatch(MemoryCardControl FirstCard, List<MemoryCardControl> closedCardsList)
         {
-            foreach (MemoryCardControl mc in mcList)
+            List<MemoryCardControl> list;
+            if (level == "Medel"){
+                list = this.mcList.GetRange(0, Math.Min(this.mcList.Count, 10 ));
+ 
+            }
+            else
+                list = mcList;
+            foreach (MemoryCardControl mc in list)
             {
                 if (mc.Data == FirstCard.Data && mc != FirstCard)
                 {
@@ -126,9 +134,16 @@ namespace MemoryGame
 
         private bool HasPair()
         {
-            foreach (MemoryCardControl mc1 in this.mcList)
+            List<MemoryCardControl> list;
+            if (level == "Medel"){
+                list = this.mcList.GetRange(0, Math.Min(this.mcList.Count, 10));
+ 
+            }
+            else
+                list = mcList;
+            foreach (MemoryCardControl mc1 in list)
             {
-                foreach (MemoryCardControl mc2 in this.mcList)
+                foreach (MemoryCardControl mc2 in list)
                 {
                     if (mc1.Data == mc2.Data && mc1 != mc2)
                         return true;
@@ -139,9 +154,16 @@ namespace MemoryGame
 
         private MemoryCardControl GetFirstPair()
         {
-            foreach (MemoryCardControl mc1 in this.mcList)
+            List<MemoryCardControl> list;
+            if (level == "Medel"){
+                list = this.mcList.GetRange(0, Math.Min(this.mcList.Count, 10 ));
+ 
+            }
+            else
+                list = mcList;
+            foreach (MemoryCardControl mc1 in list)
             {
-                foreach(MemoryCardControl mc2 in this.mcList)
+                foreach(MemoryCardControl mc2 in list)
                 {
                     if (mc1.Data == mc2.Data && mc1 != mc2)
                     {

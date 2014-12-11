@@ -114,15 +114,10 @@ namespace MemoryGame
             open = false;
             Data.Counter--;
             this.gameBoardForm.closedCardList.Add(this);
-            if (gameBoardForm.memoryCapacity != 0)
-            {
-                if (gameBoardForm.memoryList.Count == gameBoardForm.memoryCapacity)
-                {
-                    gameBoardForm.memoryList.RemoveAt(0);
-                }
-                if (!gameBoardForm.memoryList.Contains(this))
-                    gameBoardForm.memoryList.Add(this);
-            }
+
+            if (!gameBoardForm.memoryList.Contains(this))
+                gameBoardForm.memoryList.Add(this);
+
             this.Refresh();
         }
         
