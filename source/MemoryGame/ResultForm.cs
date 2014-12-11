@@ -15,6 +15,7 @@ namespace MemoryGame
     {
         private StartForm startForm;
         private Game game;
+        
 
         public ResultForm(GameBoardForm board)
         {
@@ -49,16 +50,33 @@ namespace MemoryGame
                 playerLabel.Location = new System.Drawing.Point(36, y);
                 playerLabel.Text = player.Name;
                 playerLabel.ForeColor = player.Color;
+                playerLabel.BackColor = Color.Transparent;
                 this.Controls.Add(playerLabel);
 
                 var scoreLabel = new Label();
                 scoreLabel.Location = new System.Drawing.Point(328, y);
                 scoreLabel.Text = player.Score.ToString();
                 scoreLabel.ForeColor = player.Color;
+                scoreLabel.BackColor = Color.Transparent;
 
                 this.Controls.Add(scoreLabel);
 
                 y += yOffset;
+
+                if (startForm.settings.Themes.Trim() == "Frukt")
+                {
+                    BackgroundImage = MemoryGame.Properties.Resources.fruktBg;
+
+
+                }
+                else if (startForm.settings.Themes.Trim() == "Djur")
+                {
+                    BackgroundImage = MemoryGame.Properties.Resources.djurBg;
+
+
+                }
+                else
+                    BackgroundImage = MemoryGame.Properties.Resources.vägmärkenBg;
 
             }
         }
@@ -86,6 +104,16 @@ namespace MemoryGame
                 Application.Exit();
 
         }
+
+       
+        
+        private void ResultForm_Load(object sender, EventArgs e)
+        {
+            
+           
+        }
+
+        
 
     }
 }

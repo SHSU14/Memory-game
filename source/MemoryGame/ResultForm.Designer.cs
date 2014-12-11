@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ResultForm));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -38,10 +39,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(39, 408);
+            this.button1.Location = new System.Drawing.Point(39, 388);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
+            this.button1.Size = new System.Drawing.Size(100, 27);
             this.button1.TabIndex = 2;
             this.button1.Text = "Spela igen";
             this.button1.UseVisualStyleBackColor = true;
@@ -49,10 +50,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(160, 408);
+            this.button2.Location = new System.Drawing.Point(158, 388);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(99, 28);
+            this.button2.Size = new System.Drawing.Size(114, 27);
             this.button2.TabIndex = 3;
             this.button2.Text = "Huvudmeny";
             this.button2.UseVisualStyleBackColor = true;
@@ -60,10 +61,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(282, 408);
+            this.button3.Location = new System.Drawing.Point(282, 388);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 28);
+            this.button3.Size = new System.Drawing.Size(100, 27);
             this.button3.TabIndex = 4;
             this.button3.Text = "Avsluta";
             this.button3.UseVisualStyleBackColor = true;
@@ -72,8 +73,9 @@
             // Score_label
             // 
             this.Score_label.AutoSize = true;
+            this.Score_label.BackColor = System.Drawing.Color.Transparent;
             this.Score_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Score_label.Location = new System.Drawing.Point(321, 59);
+            this.Score_label.Location = new System.Drawing.Point(321, 56);
             this.Score_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Score_label.Name = "Score_label";
             this.Score_label.Size = new System.Drawing.Size(74, 20);
@@ -83,8 +85,9 @@
             // Player_label
             // 
             this.Player_label.AutoSize = true;
+            this.Player_label.BackColor = System.Drawing.Color.Transparent;
             this.Player_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player_label.Location = new System.Drawing.Point(36, 59);
+            this.Player_label.Location = new System.Drawing.Point(36, 56);
             this.Player_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Player_label.Name = "Player_label";
             this.Player_label.Size = new System.Drawing.Size(93, 20);
@@ -94,22 +97,23 @@
             // winner_label
             // 
             this.winner_label.AutoSize = true;
-            this.winner_label.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.winner_label.ForeColor = System.Drawing.Color.Gold;
-            this.winner_label.Location = new System.Drawing.Point(108, 9);
+            this.winner_label.BackColor = System.Drawing.Color.Transparent;
+            this.winner_label.Font = new System.Drawing.Font("Britannic Bold", 19.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.winner_label.ForeColor = System.Drawing.Color.SeaGreen;
+            this.winner_label.Location = new System.Drawing.Point(101, 9);
             this.winner_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.winner_label.Name = "winner_label";
-            this.winner_label.Size = new System.Drawing.Size(235, 41);
+            this.winner_label.Size = new System.Drawing.Size(264, 37);
             this.winner_label.TabIndex = 28;
             this.winner_label.Text = "Spelare X vann!!";
             // 
             // ResultForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.BackgroundImage = global::MemoryGame.Properties.Resources.Stardust1;
-            this.ClientSize = new System.Drawing.Size(426, 449);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(426, 427);
             this.ControlBox = false;
             this.Controls.Add(this.winner_label);
             this.Controls.Add(this.Player_label);
@@ -117,8 +121,8 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.Coral;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ResultForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

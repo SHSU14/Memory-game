@@ -257,7 +257,8 @@
             // 
             // playerListView
             // 
-            this.playerListView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.playerListView.BackColor = System.Drawing.SystemColors.Window;
+            this.playerListView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.playerListView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.Spelare});
             this.playerListView.GridLines = true;
@@ -311,7 +312,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(463, 409);
+            this.ClientSize = new System.Drawing.Size(475, 409);
             this.Controls.Add(this.logo);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
