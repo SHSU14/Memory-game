@@ -49,9 +49,9 @@ namespace MemoryGame
                 thinkTimer.Tick += new EventHandler(control.HandleThinkTimer);
                 cardTimer.Tick += new EventHandler(control.HandleCardtimer);
                 control.Location = new System.Drawing.Point(x, y);
-                this.Controls.Add(control);
+                this.panel1.Controls.Add(control);
             }
-            closedCardList = this.Controls.OfType<MemoryCardControl>().ToList();
+            closedCardList = this.panel1.Controls.OfType<MemoryCardControl>().ToList();
 
             memoryList = new List<MemoryCardControl>();
             if (settings.AILevels == "Medel")
@@ -71,7 +71,8 @@ namespace MemoryGame
                 playerlabel.Location = new System.Drawing.Point(px, py);
                 playerlabel.Name = player.Name;
                 playerlabel.ForeColor = player.Color;
-                this.Controls.Add(playerlabel);
+                playerlabel.BackColor = Color.Transparent;
+                this.panel1.Controls.Add(playerlabel);
 
                 py += 22;
             }
@@ -82,6 +83,22 @@ namespace MemoryGame
             }
 
             this.Size = new Size(columns*xOffset + 150, (total + columns - 1)/columns*yOffset + 90);
+            this.panel1.Size = new Size(columns * xOffset + 150, (total + columns - 1) / columns * yOffset + 70);
+
+            this.panel1.BackgroundImageLayout = ImageLayout.Stretch;
+            this.panel1.Size = new Size(this.Size.Width - 10, this.Size.Height - this.playerTurn_label.Size.Height - 8);
+            
+
+            if (startForm.settings.Themes.Trim() == "Frukt")
+            {
+                panel1.BackgroundImage = MemoryGame.Properties.Resources.fruktBg; 
+            }
+            else if (startForm.settings.Themes.Trim() == "Djur")
+            {
+                panel1.BackgroundImage = MemoryGame.Properties.Resources.djurBg;
+            }
+            else
+                panel1.BackgroundImage = MemoryGame.Properties.Resources.vägmärkenBg;
 
             Shuffle();
 
@@ -134,7 +151,7 @@ namespace MemoryGame
             }
             Game.NextPlayer();
             Player player = Game.CurrentPlayer;
-            this.Text = player.Name;
+            this.playerTurn_label.Text = "Din tur " + player.Name + "!";
             if (player is AIPlayer)
             {
                 ((AIPlayer)player).OpenNewCard(closedCardList);
@@ -158,7 +175,7 @@ namespace MemoryGame
             Game.CurrentPlayer.Score += 1;
             Game.Score += 1;
 
-            var playerLabel = (Label)this.Controls.Find(Game.CurrentPlayer.Name, false).First();
+            var playerLabel = (Label)this.panel1.Controls.Find(Game.CurrentPlayer.Name, false).First();
             playerLabel.Text = Game.CurrentPlayer.Name + " :  " + Game.CurrentPlayer.Score.ToString();
             this.Refresh();
             

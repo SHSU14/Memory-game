@@ -29,10 +29,23 @@ namespace MemoryGame
             else
             {
                  this.winner_label.Text = game.Winner.Name + " har vunnit!";
-                 this.winner_label.ForeColor = game.Winner.Color;
-            }  
-            
+            }
+
             GenerateLables();
+
+            if (startForm.settings.Themes.Trim() == "Frukt")
+            {
+                BackgroundImage = MemoryGame.Properties.Resources.fruktBg;
+            }
+            else if (startForm.settings.Themes.Trim() == "Djur")
+            {
+                BackgroundImage = MemoryGame.Properties.Resources.djurBg;
+            }
+            else
+                BackgroundImage = MemoryGame.Properties.Resources.vägmärkenBg;
+
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+
  
 
         }
@@ -63,21 +76,7 @@ namespace MemoryGame
 
                 y += yOffset;
 
-                if (startForm.settings.Themes.Trim() == "Frukt")
-                {
-                    BackgroundImage = MemoryGame.Properties.Resources.fruktBg;
-
-
-                }
-                else if (startForm.settings.Themes.Trim() == "Djur")
-                {
-                    BackgroundImage = MemoryGame.Properties.Resources.djurBg;
-
-
-                }
-                else
-                    BackgroundImage = MemoryGame.Properties.Resources.vägmärkenBg;
-
+               
             }
         }
 

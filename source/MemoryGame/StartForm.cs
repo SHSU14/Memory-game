@@ -20,7 +20,7 @@ namespace MemoryGame
             InitializeComponent();
             this.cmb_Themes.SelectedIndex = 0;
             this.cmb_Level.SelectedIndex = 0;
-            //this.cmb_spelare.SelectedIndex = 2;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         // Öppna spelplanen(GameBoardForm)
