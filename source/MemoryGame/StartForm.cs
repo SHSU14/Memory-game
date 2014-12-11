@@ -75,10 +75,17 @@ namespace MemoryGame
             for (int i = 0; i < this.playerListView.Items.Count; i++)
             {
                 var value7 = this.playerListView.Items[i].Text.Trim();
-                if (value7.StartsWith("AI"))
+                if (value7.StartsWith("AI(Svår)"))
                 {
-                    settings.Playerlist[i] = new AIPlayer(value7, settings.AILevels);
-
+                    settings.Playerlist[i] = new AIPlayer(value7, "Svår");
+                }
+                else if (value7.StartsWith("AI(Medel)"))
+                {
+                    settings.Playerlist[i] = new AIPlayer(value7, "Medel");
+                }
+                else if (value7.StartsWith("AI(Lätt)"))
+                {
+                    settings.Playerlist[i] = new AIPlayer(value7, "Lätt");
                 }
                 else
                     settings.Playerlist[i] = new Player(value7);
@@ -104,7 +111,7 @@ namespace MemoryGame
             var listViewItem = new ListViewItem(row);
             if (checkBox1.Checked)
             {
-                playerListView.Items.Add("AI " + listViewItem.Text);
+                playerListView.Items.Add("AI" + "(" + this.cmb_Level.Text.Trim() + ") " + listViewItem.Text);
 
             }
             else

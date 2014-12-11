@@ -67,11 +67,12 @@ namespace MemoryGame
             {
                 var player = Game.Players[i];
                 var playerlabel = new Label();
-                playerlabel.Text = player.Name + " :  " + player.Score.ToString();
+                playerlabel.Text = player.Name + " : " + player.Score.ToString();
                 playerlabel.Location = new System.Drawing.Point(px, py);
                 playerlabel.Name = player.Name;
                 playerlabel.ForeColor = player.Color;
                 playerlabel.BackColor = Color.Transparent;
+                playerlabel.AutoSize = true;
                 this.panel1.Controls.Add(playerlabel);
 
                 py += 22;
@@ -83,7 +84,7 @@ namespace MemoryGame
             }
 
             this.Size = new Size(columns*xOffset + 150, (total + columns - 1)/columns*yOffset + 90);
-            this.panel1.Size = new Size(columns * xOffset + 150, (total + columns - 1) / columns * yOffset + 70);
+            this.panel1.Size = new Size(columns * xOffset + 170, (total + columns - 1) / columns * yOffset + 70);
 
             this.panel1.BackgroundImageLayout = ImageLayout.Stretch;
             this.panel1.Size = new Size(this.Size.Width - 10, this.Size.Height - this.playerTurn_label.Size.Height - 8);
@@ -101,6 +102,8 @@ namespace MemoryGame
                 panel1.BackgroundImage = MemoryGame.Properties.Resources.vägmärkenBg;
 
             Shuffle();
+
+            this.playerTurn_label.Text = "Börja spelet " + this.Game.CurrentPlayer.Name + "!";    
 
         }
 
@@ -122,6 +125,12 @@ namespace MemoryGame
         {
             GameBoardForm frm = new GameBoardForm(this.startForm);
             frm.Show();
+            Player player = frm.Game.CurrentPlayer;
+            if (player is AIPlayer)
+            {
+                ((AIPlayer)player).OpenNewCard(frm.closedCardList);
+                frm.NextPlayer();
+            }
             this.Close();
         }
 
@@ -151,7 +160,12 @@ namespace MemoryGame
             }
             Game.NextPlayer();
             Player player = Game.CurrentPlayer;
-            this.playerTurn_label.Text = "Din tur " + player.Name + "!";
+            if (player is AIPlayer){
+                this.playerTurn_label.Text = player.Name + " spelar!";
+                this.playerTurn_label.Refresh();
+        }
+            else
+                this.playerTurn_label.Text = "Din tur " + player.Name + "!";
             if (player is AIPlayer)
             {
                 ((AIPlayer)player).OpenNewCard(closedCardList);
@@ -176,8 +190,8 @@ namespace MemoryGame
             Game.Score += 1;
 
             var playerLabel = (Label)this.panel1.Controls.Find(Game.CurrentPlayer.Name, false).First();
-            playerLabel.Text = Game.CurrentPlayer.Name + " :  " + Game.CurrentPlayer.Score.ToString();
-            this.Refresh();
+            playerLabel.Text = Game.CurrentPlayer.Name + " : " + Game.CurrentPlayer.Score.ToString();
+            playerLabel.Refresh();
             
         }
     }

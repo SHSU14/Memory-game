@@ -36,7 +36,6 @@ namespace MemoryGame
         public List<MemoryCardControl> mcList;
         public string level = "Lätt";
         private Random rnd;
-        //private List<MemoryCardControl> closedCardsList;
         public AIPlayer(string name, string level) : base(name)
         {
             this.level = level;
@@ -47,17 +46,19 @@ namespace MemoryGame
         {
            if (closedCardsList.Count == 0)
                 return;
-           Thread.Sleep(800);
+           Thread.Sleep(10);
 
             //öppna första kortet
            var card = GetCard(closedCardsList, true);
+       
             card.Open(true);
-            Thread.Sleep(800);
+            Thread.Sleep(10);
 
             //Öppnar andra kortet
             var card2 =  GetCard(closedCardsList, false);
+
             card2.Open(true);
-            Thread.Sleep(800);
+            Thread.Sleep(10);
             if (card.IsMatched())
             {
                 OpenNewCard(closedCardsList); 

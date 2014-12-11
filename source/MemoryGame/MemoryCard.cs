@@ -11,7 +11,25 @@ namespace MemoryGame
         public int ID { get; set; }
         public string Symbol { get; set; }
         public string BackSide { get; set; }
-        public int Counter { get; set; }
+
+        private int counter;
+
+        public int Counter
+        {
+            get
+            {
+                return counter;
+            }
+            set
+            {
+                if (value > 2) 
+                this.ID = 1;
+
+                counter = value;
+
+            }
+        }
+
 
         //skapar nytt memoryCard med default-inställningar
         public MemoryCard()
@@ -28,7 +46,7 @@ namespace MemoryGame
             this.Counter = 2;
         }
 
-  
+       
 
     }
 }

@@ -24,6 +24,13 @@ namespace MemoryGame
 
         private bool open = false; //sant om kortet är öppet, alltså visar sin symbol och inte baksidebilden
 
+
+        public bool isOpen
+        {
+            get{return open;}
+            set{ open = value;}
+        }
+
         public MemoryCardControl(GameBoardForm form)
         {
             InitializeComponent();
@@ -73,6 +80,8 @@ namespace MemoryGame
         //"Öppnar" kortet d v s visar bilden
         public void Open(bool isAIPlayer)
         {
+            if (open)
+                return;
             if (thinkTimer.Enabled)
             {
                 thinkTimer.Stop();
@@ -87,7 +96,7 @@ namespace MemoryGame
             Data.Counter++;
             this.gameBoardForm.closedCardList.Remove(this);  
 
-            if (Data.Counter == 2)
+            if (IsMatched())
             {
                 this.Refresh();
                 gameBoardForm.AddScore();
@@ -99,9 +108,11 @@ namespace MemoryGame
         //"Stänger kortet" d v s visar baksidan
         public void Close()
         {
-            Data.Counter--;
+            if (!open)
+                return;
             Image = (Image)global::MemoryGame.Properties.Resources.ResourceManager.GetObject(Data.BackSide);
             open = false;
+            Data.Counter--;
             this.gameBoardForm.closedCardList.Add(this);
             if (gameBoardForm.memoryCapacity != 0)
             {
@@ -109,7 +120,8 @@ namespace MemoryGame
                 {
                     gameBoardForm.memoryList.RemoveAt(0);
                 }
-                gameBoardForm.memoryList.Add(this);
+                if (!gameBoardForm.memoryList.Contains(this))
+                    gameBoardForm.memoryList.Add(this);
             }
             this.Refresh();
         }
@@ -124,7 +136,7 @@ namespace MemoryGame
         protected override void OnClick(EventArgs e)
         {
             base.OnClick(e);
-            if (open || this.cardTimer.Enabled)
+            if (open || this.cardTimer.Enabled || gameBoardForm.Game.CurrentPlayer is AIPlayer)
                 return;
             else
             {
