@@ -49,6 +49,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.logo = new System.Windows.Forms.Label();
             this.helpButton = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nud_ShowCardTimer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_PlayerTurnTimer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_Cardnumber)).BeginInit();
@@ -165,7 +166,7 @@
             // 
             // btn_starta
             // 
-            this.btn_starta.Location = new System.Drawing.Point(155, 364);
+            this.btn_starta.Location = new System.Drawing.Point(224, 364);
             this.btn_starta.Margin = new System.Windows.Forms.Padding(2);
             this.btn_starta.Name = "btn_starta";
             this.btn_starta.Size = new System.Drawing.Size(75, 24);
@@ -316,6 +317,17 @@
             this.helpButton.TabIndex = 102;
             this.helpButton.Text = "Hjälp";
             this.helpButton.UseVisualStyleBackColor = true;
+            this.helpButton.Click += new System.EventHandler(this.helpButton_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(124, 365);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 103;
+            this.button3.Text = "Avsluta";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // StartForm
             // 
@@ -323,6 +335,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(475, 409);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.helpButton);
             this.Controls.Add(this.logo);
             this.Controls.Add(this.label2);
@@ -380,5 +393,6 @@
         private System.Windows.Forms.ColumnHeader Spelare;
         private System.Windows.Forms.Label logo;
         private System.Windows.Forms.Button helpButton;
+        private System.Windows.Forms.Button button3;
     }
 }

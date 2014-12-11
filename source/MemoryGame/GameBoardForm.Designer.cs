@@ -37,6 +37,9 @@ namespace MemoryGame
             this.nyttToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.startaOmSpeletToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.avslutaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hjälpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.instruktionerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.omMemorySpelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.playerTurn_label = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -56,7 +59,8 @@ namespace MemoryGame
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
+            this.fileToolStripMenuItem,
+            this.hjälpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 2, 0, 2);
@@ -99,6 +103,33 @@ namespace MemoryGame
             this.avslutaToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.avslutaToolStripMenuItem.Text = "&Avsluta";
             this.avslutaToolStripMenuItem.Click += new System.EventHandler(this.avslutaToolStripMenuItem_Click);
+            // 
+            // hjälpToolStripMenuItem
+            // 
+            this.hjälpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.instruktionerToolStripMenuItem,
+            this.omMemorySpelToolStripMenuItem});
+            this.hjälpToolStripMenuItem.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hjälpToolStripMenuItem.ForeColor = System.Drawing.Color.Coral;
+            this.hjälpToolStripMenuItem.Name = "hjälpToolStripMenuItem";
+            this.hjälpToolStripMenuItem.Size = new System.Drawing.Size(50, 21);
+            this.hjälpToolStripMenuItem.Text = "&Hjälp";
+            // 
+            // instruktionerToolStripMenuItem
+            // 
+            this.instruktionerToolStripMenuItem.ForeColor = System.Drawing.Color.Coral;
+            this.instruktionerToolStripMenuItem.Name = "instruktionerToolStripMenuItem";
+            this.instruktionerToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
+            this.instruktionerToolStripMenuItem.Text = "Instruktioner och regler";
+            this.instruktionerToolStripMenuItem.Click += new System.EventHandler(this.instruktionerToolStripMenuItem_Click);
+            // 
+            // omMemorySpelToolStripMenuItem
+            // 
+            this.omMemorySpelToolStripMenuItem.ForeColor = System.Drawing.Color.Coral;
+            this.omMemorySpelToolStripMenuItem.Name = "omMemorySpelToolStripMenuItem";
+            this.omMemorySpelToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
+            this.omMemorySpelToolStripMenuItem.Text = "Om Memory Spel";
+            this.omMemorySpelToolStripMenuItem.Click += new System.EventHandler(this.omMemorySpelToolStripMenuItem_Click);
             // 
             // playerTurn_label
             // 
@@ -147,6 +178,8 @@ namespace MemoryGame
         private System.Windows.Forms.ToolStripMenuItem startaOmSpeletToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem avslutaToolStripMenuItem;
         private System.Windows.Forms.Label playerTurn_label;
-
+        private System.Windows.Forms.ToolStripMenuItem hjälpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem instruktionerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem omMemorySpelToolStripMenuItem;
     }
 }

@@ -165,6 +165,25 @@ namespace MemoryGame
 
         }
 
+        private void helpButton_Click(object sender, EventArgs e)
+        {
+
+            //MesseageBox konfigrationer och inställningar
+
+            string messageBoxtext = "Group2 Memory spel är lik tradionella Memory spelen inga komplicerade regler gäller här.\nI första skärmen till spelet skall antal spelare bestämmas och storleken på spelplanen\nd.v.s. hur många kort ska slumpas på skärmen. Spelaren har även en möjlighet att välja\nen bestämd tid mellan valen av kort och hur länge de skall visas vid fel träff.\nSpalaren kan även välja att spela mot dator styrd spelare med tre olika svårighets grader.\nSpelaren bestämmer sin egen tid mellan dragen, när den tiden rinner ut så har man förlorat sin tur och spelet fortsätter till nästa spel.\n\nTips!!\nVar lika uppmärksam när det andra spelares drag.\nDe korten som öppnas upp kan vara det träff du letar efter.";
+            string messageBoxtitle = "Hur man spelar.";
+            MessageBoxButtons button = MessageBoxButtons.OK;
+            MessageBoxIcon icon = MessageBoxIcon.Information;
+            // Visa Om menyn som MessageBox
+
+            MessageBox.Show(messageBoxtext, messageBoxtitle, button, icon);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
        
     }
 }
